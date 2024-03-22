@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="last_date_billed" label="Last Date Billed" language="en" table="x_1331380_pro_bono_opportunity">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>last_date_billed</element>
+            <help/>
+            <hint/>
+            <label>Last Date Billed</label>
+            <language>en</language>
+            <name>x_1331380_pro_bono_opportunity</name>
+            <plural>Last Date Billed</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-22 13:28:14</sys_created_on>
+            <sys_id>025e9f9a47c902104e3dfe02d16d434e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Last Date Billed</sys_name>
+            <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+            <sys_update_name>sys_documentation_x_1331380_pro_bono_opportunity_last_date_billed_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-22 13:28:14</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
