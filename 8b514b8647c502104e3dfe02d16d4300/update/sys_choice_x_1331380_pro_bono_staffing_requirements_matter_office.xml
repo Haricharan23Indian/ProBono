@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="matter_office" table="x_1331380_pro_bono_staffing_requirements" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>matter_office</element>
+            <name>x_1331380_pro_bono_staffing_requirements</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-30 05:41:45</sys_created_on>
+            <sys_id>72408ff4471102104e3dfe02d16d436a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>matter_office</sys_name>
+            <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+            <sys_update_name>sys_choice_x_1331380_pro_bono_staffing_requirements_matter_office</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-30 05:41:45</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>matter_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>London</label>
+            <language>en</language>
+            <name>x_1331380_pro_bono_staffing_requirements</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-30 05:41:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>344083b4471102104e3dfe02d16d4385</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-30 05:41:58</sys_updated_on>
+            <value>london</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>matter_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Los Angeles</label>
+            <language>en</language>
+            <name>x_1331380_pro_bono_staffing_requirements</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-30 05:42:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be40cb38471102104e3dfe02d16d43ea</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-30 05:42:24</sys_updated_on>
+            <value>los angeles</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>matter_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Miami</label>
+            <language>en</language>
+            <name>x_1331380_pro_bono_staffing_requirements</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-30 05:42:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc600b78471102104e3dfe02d16d43aa</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-30 05:42:46</sys_updated_on>
+            <value>miami</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>matter_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Munich</label>
+            <language>en</language>
+            <name>x_1331380_pro_bono_staffing_requirements</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-30 05:42:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53704b78471102104e3dfe02d16d43bb</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-30 05:43:11</sys_updated_on>
+            <value>munich</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>matter_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New York</label>
+            <language>en</language>
+            <name>x_1331380_pro_bono_staffing_requirements</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-30 05:43:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7090cb38471102104e3dfe02d16d439a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-30 05:45:30</sys_updated_on>
+            <value>new york</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>matter_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Paris</label>
+            <language>en</language>
+            <name>x_1331380_pro_bono_staffing_requirements</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-30 05:43:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>82a0cb78471102104e3dfe02d16d43fe</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-30 05:45:32</sys_updated_on>
+            <value>paris</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>matter_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Riyadh</label>
+            <language>en</language>
+            <name>x_1331380_pro_bono_staffing_requirements</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-30 05:43:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ab0c378471102104e3dfe02d16d43f9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-30 05:45:34</sys_updated_on>
+            <value>riyadh</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>matter_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Salt Lake City</label>
+            <language>en</language>
+            <name>x_1331380_pro_bono_staffing_requirements</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-30 05:44:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c6c0cf78471102104e3dfe02d16d4368</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-30 05:45:38</sys_updated_on>
+            <value>salt lake city</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>matter_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Shanghai</label>
+            <language>en</language>
+            <name>x_1331380_pro_bono_staffing_requirements</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-30 05:44:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ed08b38471102104e3dfe02d16d43fc</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-30 05:45:41</sys_updated_on>
+            <value>shanghai</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>matter_office</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Washington DC</label>
+            <language>en</language>
+            <name>x_1331380_pro_bono_staffing_requirements</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-30 05:45:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fdf0cb78471102104e3dfe02d16d4313</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-30 05:45:44</sys_updated_on>
+            <value>washing ton</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

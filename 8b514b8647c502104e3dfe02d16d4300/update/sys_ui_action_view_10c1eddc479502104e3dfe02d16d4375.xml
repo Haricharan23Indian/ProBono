@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view">
+    <sys_ui_action_view action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-28 09:31:45</sys_created_on>
+        <sys_id>10c1eddc479502104e3dfe02d16d4375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add.ADD_View</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_ui_action display_value="Add">ddfda593478102104e3dfe02d16d43d7</sys_ui_action>
+        <sys_ui_view display_value="ADD_View" name="add_view">635f5d1c479502104e3dfe02d16d43b3</sys_ui_view>
+        <sys_update_name>sys_ui_action_view_10c1eddc479502104e3dfe02d16d4375</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-28 09:31:45</sys_updated_on>
+        <visibility>include</visibility>
+    </sys_ui_action_view>
+</record_update>

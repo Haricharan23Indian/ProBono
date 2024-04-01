@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1331380_pro_bono.StaffingOutreach</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>StaffingOutreach</name>
+        <script><![CDATA[var StaffingOutreach = Class.create();
+StaffingOutreach.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    details: function() {
+        var records = this.getParameter("sysparm_value");
+        var array = records.split(",");
+        var opportunity_id = gs.getProperty("x_1331380_pro_bono.testing_id");
+        for (var i = 0; i < array.length; i++) {
+            var gt = new GlideRecord("x_1331380_pro_bono_time_keeper_register");
+            gt.get(array[i]);
+            var gr = new GlideRecord("sn_customerservice_related_party");
+            gr.addQuery("x_1331380_pro_bono_opportunity", opportunity_id);
+            gr.addQuery("x_1331380_pro_bono_time_keeper", array[i]);
+            gr.query();
+            if (gr.next()) {
+                return;
+            } else {
+                gr.initialize();
+                gr.x_1331380_pro_bono_timekeeper_name = gt.time_keeper_name;
+                gr.x_1331380_pro_bono_timekeeper_email = gt.email;
+				gr.x_1331380_pro_bono_opportunity=opportunity_id;
+				gr.x_1331380_pro_bono_time_keeper=array[i];
+
+                gr.insert();
+
+            }
+
+        }
+    },
+    type: 'StaffingOutreach'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-26 10:16:22</sys_created_on>
+        <sys_id>c8b8d7ab47c502104e3dfe02d16d43c4</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>StaffingOutreach</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_update_name>sys_script_include_c8b8d7ab47c502104e3dfe02d16d43c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-01 03:38:31</sys_updated_on>
+    </sys_script_include>
+</record_update>

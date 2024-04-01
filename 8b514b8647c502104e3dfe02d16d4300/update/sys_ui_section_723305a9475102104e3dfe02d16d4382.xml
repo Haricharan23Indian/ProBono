@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="723305a9475102104e3dfe02d16d4382" sys_domain="global" table="x_1331380_pro_bono_opportunity" version="3" view="immigration_view">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>eoir_filling_deadline</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 04:33:49</sys_created_on>
+            <sys_id>07e381e9475102104e3dfe02d16d4378</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="f633c169475102104e3dfe02d16d433c">723305a9475102104e3dfe02d16d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 04:33:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>eoir_filling_description</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 04:33:49</sys_created_on>
+            <sys_id>8be381e9475102104e3dfe02d16d4378</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="f633c169475102104e3dfe02d16d433c">723305a9475102104e3dfe02d16d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 04:33:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>usics_filling_deadline</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 04:33:49</sys_created_on>
+            <sys_id>03e381e9475102104e3dfe02d16d4379</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="f633c169475102104e3dfe02d16d433c">723305a9475102104e3dfe02d16d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 04:33:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>usics_description</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 04:33:49</sys_created_on>
+            <sys_id>87e381e9475102104e3dfe02d16d4379</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="f633c169475102104e3dfe02d16d433c">723305a9475102104e3dfe02d16d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 04:33:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ice_deadlines_ck_in</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 04:33:49</sys_created_on>
+            <sys_id>0fe381e9475102104e3dfe02d16d4379</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="f633c169475102104e3dfe02d16d433c">723305a9475102104e3dfe02d16d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 04:33:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ice_description_ck_in</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 04:33:49</sys_created_on>
+            <sys_id>83e381e9475102104e3dfe02d16d437a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="f633c169475102104e3dfe02d16d433c">723305a9475102104e3dfe02d16d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 04:33:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_deadlines</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 04:33:49</sys_created_on>
+            <sys_id>0be381e9475102104e3dfe02d16d437a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="f633c169475102104e3dfe02d16d433c">723305a9475102104e3dfe02d16d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 04:33:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_deadline_description</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 04:33:49</sys_created_on>
+            <sys_id>8fe381e9475102104e3dfe02d16d437a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="f633c169475102104e3dfe02d16d433c">723305a9475102104e3dfe02d16d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 04:33:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_of_last_update</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 04:33:49</sys_created_on>
+            <sys_id>07e381e9475102104e3dfe02d16d437b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="f633c169475102104e3dfe02d16d433c">723305a9475102104e3dfe02d16d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 04:33:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority_date</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 04:33:49</sys_created_on>
+            <sys_id>8be381e9475102104e3dfe02d16d437b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="f633c169475102104e3dfe02d16d433c">723305a9475102104e3dfe02d16d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 04:33:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>case_status</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 04:33:49</sys_created_on>
+            <sys_id>03e381e9475102104e3dfe02d16d437c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="f633c169475102104e3dfe02d16d433c">723305a9475102104e3dfe02d16d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 04:33:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>action_needed</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 04:33:49</sys_created_on>
+            <sys_id>87e381e9475102104e3dfe02d16d437c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="f633c169475102104e3dfe02d16d433c">723305a9475102104e3dfe02d16d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 04:33:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>responsible_office</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 04:33:49</sys_created_on>
+            <sys_id>0fe381e9475102104e3dfe02d16d437c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="f633c169475102104e3dfe02d16d433c">723305a9475102104e3dfe02d16d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 04:33:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hearing_type</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 04:33:49</sys_created_on>
+            <sys_id>83e381e9475102104e3dfe02d16d437d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="f633c169475102104e3dfe02d16d433c">723305a9475102104e3dfe02d16d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 04:33:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hearing_location</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 04:33:49</sys_created_on>
+            <sys_id>0be381e9475102104e3dfe02d16d437d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="f633c169475102104e3dfe02d16d433c">723305a9475102104e3dfe02d16d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 04:33:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hearing_date</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 04:33:49</sys_created_on>
+            <sys_id>8fe381e9475102104e3dfe02d16d437d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="f633c169475102104e3dfe02d16d433c">723305a9475102104e3dfe02d16d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 04:33:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country_of_origin</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 04:33:49</sys_created_on>
+            <sys_id>07e381e9475102104e3dfe02d16d437e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="f633c169475102104e3dfe02d16d433c">723305a9475102104e3dfe02d16d4382</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 04:33:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1331380_pro_bono_opportunity</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 04:30:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>723305a9475102104e3dfe02d16d4382</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1331380_pro_bono_opportunity</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+            <sys_update_name>sys_ui_section_723305a9475102104e3dfe02d16d4382</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 04:30:47</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Immigration View" name="immigration_view">f633c169475102104e3dfe02d16d433c</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

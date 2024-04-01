@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1331380_pro_bono.StaffingRequirement</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>StaffingRequirement</name>
+        <script><![CDATA[var StaffingRequirement = Class.create();
+StaffingRequirement.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	details:function(){
+		var records=this.getParameter("sysparm_value");
+		var array=records.split(",");
+		var id=gs.getProperty("x_1331380_pro_bono.testing_id");
+		for(var i=0;i<array.length;i++){
+			
+			var gr=new GlideRecord("x_1331380_pro_bono_m2m_x_1331380_pr_x_1331380_pr");
+			gr.addQuery("x_1331380_pro_bono_staffing_requirements",array[i]);
+			gr.addQuery("x_1331380_pro_bono_opportunity",id);
+			gr.query();
+			if(gr.next()){
+				return "duplicate";
+			}
+			else{
+				gr.initialize();
+				gr.x_1331380_pro_bono_staffing_requirements=array[i];
+				gr.x_1331380_pro_bono_opportunity=id;
+				gr.insert();
+
+			}
+		}
+
+	},
+
+    type: 'StaffingRequirement'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-30 11:27:47</sys_created_on>
+        <sys_id>506f80c547d502104e3dfe02d16d433b</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>StaffingRequirement</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_update_name>sys_script_include_506f80c547d502104e3dfe02d16d433b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-30 15:45:58</sys_updated_on>
+    </sys_script_include>
+</record_update>

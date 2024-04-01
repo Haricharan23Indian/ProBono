@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view">
+    <sys_ui_action_view action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-30 10:40:07</sys_created_on>
+        <sys_id>91944885479502104e3dfe02d16d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add Records.Staff View</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_ui_action display_value="Add Records">66b20805479502104e3dfe02d16d4363</sys_ui_action>
+        <sys_ui_view display_value="Staff View" name="staff_view">a7544885479502104e3dfe02d16d43e1</sys_ui_view>
+        <sys_update_name>sys_ui_action_view_91944885479502104e3dfe02d16d43ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-30 10:40:07</sys_updated_on>
+        <visibility>include</visibility>
+    </sys_ui_action_view>
+</record_update>
