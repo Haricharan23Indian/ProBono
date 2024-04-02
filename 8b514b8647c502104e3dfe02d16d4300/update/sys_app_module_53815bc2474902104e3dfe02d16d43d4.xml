@@ -18,14 +18,14 @@
         <query/>
         <report/>
         <require_confirmation>true</require_confirmation>
-        <roles>x_1331380_pro_bono.time_keeper_register_user</roles>
+        <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-21 17:53:52</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>53815bc2474902104e3dfe02d16d43d4</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Time Keeper Register</sys_name>
         <sys_overrides/>
         <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
         <sys_update_name>sys_app_module_53815bc2474902104e3dfe02d16d43d4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 11:16:07</sys_updated_on>
+        <sys_updated_on>2024-04-01 12:38:16</sys_updated_on>
         <timeline_page/>
         <title>Time Keeper Register</title>
         <uncancelable>false</uncancelable>
