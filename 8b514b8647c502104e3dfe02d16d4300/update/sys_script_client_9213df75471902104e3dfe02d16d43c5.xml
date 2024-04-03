@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>existing_client_matter</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Autopopulate</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var ga = new GlideAjax("SendDetails");
+    ga.addParam("sysparm_name", "details");
+    ga.addParam("sysparm_value", newValue);
+    ga.getXML(callBackFunc);
+
+    function callBackFunc(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+        var result = JSON.parse(answer);
+        var array = ["matter_name", "client_name","matter_type","client_type", "representation_type", "referral_source", "matter_office", "deadline", "keni_request_number", "opportunity_created", "language_requirement", "date_of_keni_request_submission", "special_matter_tags"];
+        // alert(answer.matter_name);
+        for (var i = 0; i < array.length; i++) {
+            g_form.setValue(array[i], result[array[i]]);
+        }
+    }
+
+    //Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-02 09:43:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9213df75471902104e3dfe02d16d43c5</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Autopopulate</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_update_name>sys_script_client_9213df75471902104e3dfe02d16d43c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-02 11:36:46</sys_updated_on>
+        <table>x_1331380_pro_bono_opportunity</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

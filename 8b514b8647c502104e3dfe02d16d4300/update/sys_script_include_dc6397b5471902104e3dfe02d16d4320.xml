@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1331380_pro_bono.SendDetails</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>SendDetails</name>
+        <script><![CDATA[var SendDetails = Class.create();
+SendDetails.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	details:function(){
+		var gr=new GlideRecord("x_1331380_pro_bono_opportunity");
+		var sysID=this.getParameter("sysparm_value");
+		gr.addQuery("sys_id",sysID);
+		gr.query();
+		if(gr.next()){
+			var obj={};
+			obj.matter_name = gr.getValue("matter_name");
+			obj.client_name=gr.getValue("client_name");
+			obj.representation_type=gr.getDisplayValue("representation_type");
+			obj.matter_type=gr.getDisplayValue("matter_type");
+			obj.client_type=gr.getDisplayValue("client_type");
+			obj.referral_source=gr.getDisplayValue("referral_source");
+			obj.matter_office=gr.getValue("matter_office");
+			obj.deadline=gr.getDisplayValue("deadline");
+			obj.keni_request_number=gr.getValue("keni_request_number");
+			obj.opportunity_created=gr.getDisplayValue("opportunity_created");
+			obj.language_requriement=gr.getDisplayValue("language_requriement");
+			obj.date_of_keni_request_submission=gr.getDisplayValue("date_of_keni_request_submission");
+			obj.special_matter_tags=gr.getDisplayValue("special_matter_tags");
+			return JSON.stringify(obj);
+
+		}
+		
+		
+
+
+	},
+
+    type: 'SendDetails'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-02 09:39:58</sys_created_on>
+        <sys_id>dc6397b5471902104e3dfe02d16d4320</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>SendDetails</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_update_name>sys_script_include_dc6397b5471902104e3dfe02d16d4320</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-02 11:38:04</sys_updated_on>
+    </sys_script_include>
+</record_update>
