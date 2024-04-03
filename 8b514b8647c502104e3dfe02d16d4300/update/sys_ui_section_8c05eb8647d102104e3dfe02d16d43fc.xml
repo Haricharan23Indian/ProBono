@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="New Section" section_id="8c05eb8647d102104e3dfe02d16d43fc" sys_domain="global" table="x_1331380_pro_bono_opportunity" version="3" view="Matter_Profile">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sensitive_notes</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-03 05:34:33</sys_created_on>
+            <sys_id>54052f8647d102104e3dfe02d16d433f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="589c911e470102104e3dfe02d16d43df">8c05eb8647d102104e3dfe02d16d43fc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-03 05:34:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-03 05:34:33</sys_created_on>
+            <sys_id>d8052f8647d102104e3dfe02d16d433f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="589c911e470102104e3dfe02d16d43df">8c05eb8647d102104e3dfe02d16d43fc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-03 05:34:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_1331380_pro_bono_opportunity</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-03 05:34:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c05eb8647d102104e3dfe02d16d43fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1331380_pro_bono_opportunity</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+            <sys_update_name>sys_ui_section_8c05eb8647d102104e3dfe02d16d43fc</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-03 05:34:32</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Matter Profile" name="Matter_Profile">589c911e470102104e3dfe02d16d43df</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

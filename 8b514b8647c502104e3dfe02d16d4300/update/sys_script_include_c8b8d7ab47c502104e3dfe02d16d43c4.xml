@@ -26,13 +26,13 @@ StaffingOutreach.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
                 gr.initialize();
                 gr.x_1331380_pro_bono_timekeeper_name = gt.time_keeper_name;
                 gr.x_1331380_pro_bono_timekeeper_email = gt.email;
+				gr.x_1331380_pro_bono_sub_parctice_group=gt.subpractice_group;
+				gr.x_1331380_pro_bono_opportunity_accepted=gt.accepted_opportunity;
+				gr.x_1331380_pro_bono_notes=gt.notes;
 				gr.x_1331380_pro_bono_opportunity=opportunity_id;
 				gr.x_1331380_pro_bono_time_keeper=array[i];
-
                 gr.insert();
-
             }
-
         }
     },
     type: 'StaffingOutreach'
@@ -41,13 +41,13 @@ StaffingOutreach.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-26 10:16:22</sys_created_on>
         <sys_id>c8b8d7ab47c502104e3dfe02d16d43c4</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>StaffingOutreach</sys_name>
         <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
         <sys_update_name>sys_script_include_c8b8d7ab47c502104e3dfe02d16d43c4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 03:38:31</sys_updated_on>
+        <sys_updated_on>2024-04-03 04:58:03</sys_updated_on>
     </sys_script_include>
 </record_update>
