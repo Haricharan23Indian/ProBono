@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bfb05b82474902104e3dfe02d16d43b7" label="Time Keeper Register" max_length="40" name="x_1331380_pro_bono_time_keeper_register" type="collection">
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Awards" max_length="1024" name="awards" reference="x_1331380_pro_bono_foundation_attribute_data" reference_qual="type=Awards &amp; Recognition^EQ" reference_qual_condition="type=Awards &amp; Recognition^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Bar Admissions" max_length="40" name="bar_admissions" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Certifications" max_length="1024" name="certifications" reference="x_1331380_pro_bono_foundation_attribute_data" reference_qual="type=Awards &amp; Recognition^EQ" reference_qual_condition="type=Awards &amp; Recognition^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee ID Number" max_length="40" name="employee_id_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="End Date" max_length="40" name="end_date" type="glide_date_time"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Language Capability" max_length="1024" name="language_capability" reference="x_1331380_pro_bono_foundation_attribute_data" reference_qual="type=Language^EQ" reference_qual_condition="type=Language^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Law School Year" max_length="40" name="law_school_year" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="4000" name="notes" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Practice Group" max_length="40" name="practice_group" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Transactional" value="1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Sensitive Notes Field" max_length="4000" name="sensitive_notes_field" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Special Tags" max_length="1024" name="special_tags" reference="x_1331380_pro_bono_foundation_attribute_data" reference_qual="type=Special Matter Tag^EQ" reference_qual_condition="type=Special Matter Tag^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Date" max_length="40" name="start_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Active" value="1"/>
+                <element inactive_on_update="false" label="In Active" value="2"/>
+                <element inactive_on_update="false" label="On Leave" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="SubPractice Group" max_length="40" name="subpractice_group" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="IP Litigation" value="2"/>
+                <element inactive_on_update="false" label="M&amp;A" value="1"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="Time Billed YTD" max_length="40" name="time_billed_ytd" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="Time Keeper Name" max_length="40" name="time_keeper_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Time Keeper Number" max_length="40" name="time_keeper_number" type="string"/>
+        <element attributes="encode_utf8=false" label="Time Keeper Office" max_length="32" name="time_keeper_office" reference="x_1331380_pro_bono_foundation_attribute_data" reference_qual="type=Country^EQ" reference_qual_condition="type=Country^EQ" type="reference"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" choice="3" label="Time Keeper Type" max_length="1024" name="time_keeper_type" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="Associate" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Income Partner" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="PA" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Share Partner" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="User" max_length="32" name="user" reference="sys_user" reference_qual="javascript: new ReturnSysID().userDetails();" type="reference" use_reference_qualifier="advanced"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index2">
+            <element name="time_keeper_office"/>
+        </index>
+        <index name="index3">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

@@ -9,8 +9,8 @@
         <query_from/>
         <query_with><![CDATA[(function refineQuery(current, parent) {
 
-	// Add your code here, such as current.addQuery(field, value);
-	current.addQuery("x_1331380_pro_bono_opportunity",parent.sys_id);
+    // Add your code here, such as current.addQuery(field, value);
+     current.addQuery("x_1331380_pro_bono_opportunity", parent.sys_id);
 
 })(current, parent);]]></query_with>
         <reference_field/>
@@ -20,14 +20,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-26 09:46:22</sys_created_on>
         <sys_id>96815fa747c502104e3dfe02d16d4361</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Staffing Outreach</sys_name>
         <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
         <sys_policy/>
         <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
         <sys_update_name>sys_relationship_96815fa747c502104e3dfe02d16d4361</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 03:39:11</sys_updated_on>
+        <sys_updated_on>2024-04-12 11:21:07</sys_updated_on>
     </sys_relationship>
     <sys_translated_text action="delete_multiple" query="documentkey=96815fa747c502104e3dfe02d16d4361"/>
 </record_update>

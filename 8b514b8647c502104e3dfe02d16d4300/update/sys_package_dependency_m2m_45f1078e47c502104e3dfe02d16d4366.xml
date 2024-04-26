@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Customer Service" source="sn_customerservice">51d811fad7223100b7490ee60e61034f</dependency>
+        <min_version>25.5.1</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 16:45:43</sys_created_on>
+        <sys_id>45f1078e47c502104e3dfe02d16d4366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 16:45:43</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

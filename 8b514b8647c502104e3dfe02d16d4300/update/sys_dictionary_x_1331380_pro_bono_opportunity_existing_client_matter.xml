@@ -2,9 +2,14 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="existing_client_matter" table="x_1331380_pro_bono_opportunity">
         <active>true</active>
         <array>false</array>
-        <attributes>no_sort=true,slushbucket_ref_no_expand=true</attributes>
+        <attributes/>
         <audit>false</audit>
-        <calculation/>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
@@ -27,9 +32,9 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">glide_list</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>1024</max_length>
+        <max_length>32</max_length>
         <name>x_1331380_pro_bono_opportunity</name>
         <next_element/>
         <primary>false</primary>
@@ -46,15 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-21 17:12:07</sys_created_on>
-        <sys_id>2bf78786470902104e3dfe02d16d43a3</sys_id>
+        <sys_created_on>2024-04-10 10:19:26</sys_created_on>
         <sys_name>Existing Client Matter</sys_name>
         <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
         <sys_policy/>
         <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
         <sys_update_name>sys_dictionary_x_1331380_pro_bono_opportunity_existing_client_matter</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-02 09:24:58</sys_updated_on>
+        <sys_updated_on>2024-04-10 10:19:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

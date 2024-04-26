@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="312c32f0471102104e3dfe02d16d4390" label="Staffing Requirements" max_length="40" name="x_1331380_pro_bono_staffing_requirements" type="collection">
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Bar Admissions" max_length="1024" name="bar_admissions" reference="cmdb_multisource_deny_class" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Client Name" max_length="40" name="client_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Client Type" max_length="40" name="client_type" reference="x_1331380_pro_bono_foundation_attribute_data" reference_qual="type=Client Type^EQ" reference_qual_condition="type=Client Type^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Law School Year" max_length="40" name="law_school_year" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Matter Description" max_length="4000" name="matter_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Matter Name" max_length="40" name="matter_name" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" choice="1" label="Matter Office" max_length="1024" name="matter_office" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="London" sequence="1" value="london"/>
+                <element inactive_on_update="false" label="Los Angeles" sequence="2" value="los angeles"/>
+                <element inactive_on_update="false" label="Miami" sequence="3" value="miami"/>
+                <element inactive_on_update="false" label="Munich" sequence="4" value="munich"/>
+                <element inactive_on_update="false" label="New York" sequence="5" value="new york"/>
+                <element inactive_on_update="false" label="Paris" sequence="6" value="paris"/>
+                <element inactive_on_update="false" label="Riyadh" sequence="7" value="riyadh"/>
+                <element inactive_on_update="false" label="Salt Lake City" sequence="8" value="salt lake city"/>
+                <element inactive_on_update="false" label="Shanghai" sequence="9" value="shanghai"/>
+                <element inactive_on_update="false" label="Washington DC" sequence="10" value="washing ton"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Matter Type" max_length="40" name="matter_type" reference="x_1331380_pro_bono_foundation_attribute_data" reference_qual="type=Matter Type^EQ" reference_qual_condition="type=Matter Type^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="4000" name="notes" type="journal"/>
+        <element label="Number" max_length="40" name="number" type="integer"/>
+        <element attributes="encode_utf8=false" label="Opportunity" max_length="32" name="opportunity" reference="x_1331380_pro_bono_opportunity" type="reference"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" choice="1" label="Practice Group" max_length="1024" name="practice_group" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Transactional" value="1"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Staffing Requirements" max_length="1024" name="staffing_requirements" reference="x_1331380_pro_bono_foundation_attribute_data" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sub Practice Group" max_length="40" name="sub_practice_group" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="IP Litigation" value="1"/>
+                <element inactive_on_update="false" label="M&amp;A" value="2"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="encode_utf8=false" label="TimeKeeper Office" max_length="32" name="timekeeper_office" reference="x_1331380_pro_bono_foundation_attribute_data" reference_qual="type=Country^EQ" reference_qual_condition="type=Country^EQ" type="reference"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="TimeKeeper Type" max_length="1024" name="timekeeper_type" type="glide_list"/>
+        <index name="index">
+            <element name="opportunity"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index3">
+            <element name="timekeeper_office"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d198464a474102104e3dfe02d16d43c1" label="Related Party" max_length="40" name="sn_customerservice_related_party" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Employee Number" max_length="40" name="x_1331380_pro_bono_employee_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="4000" name="x_1331380_pro_bono_notes" type="journal"/>
+        <element attributes="encode_utf8=false" label="Opportunity" max_length="32" name="x_1331380_pro_bono_opportunity" reference="x_1331380_pro_bono_opportunity" type="reference"/>
+        <element choice="1" default="2" label="Opportunity Accepted" max_length="30" name="x_1331380_pro_bono_opportunity_accepted" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" value="2"/>
+                <element inactive_on_update="false" label="Yes" value="1"/>
+            </choice>
+        </element>
+        <element choice="1" label="Practice Group" max_length="50" name="x_1331380_pro_bono_practice_group" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Transactional" value="1"/>
+            </choice>
+        </element>
+        <element choice="1" label="Sub Parctice Group" max_length="30" name="x_1331380_pro_bono_sub_parctice_group" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ip Litigation" value="2"/>
+                <element inactive_on_update="false" label="M&amp;A" value="1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Timekeeper Email" max_length="40" name="x_1331380_pro_bono_timekeeper_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Timekeeper Employee ID" max_length="40" name="x_1331380_pro_bono_timekeeper_employee_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Timekeeper Name" max_length="40" name="x_1331380_pro_bono_timekeeper_name" type="string"/>
+        <element attributes="encode_utf8=false" label="Timekeeper Office" max_length="32" name="x_1331380_pro_bono_timekeeper_office" reference="x_1331380_pro_bono_foundation_attribute_data" reference_qual="type=Country^EQ" reference_qual_condition="type=Country^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" label="Time Keeper" max_length="32" name="x_1331380_pro_bono_time_keeper" reference="x_1331380_pro_bono_time_keeper_register" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Timekeeper Name" max_length="40" name="x_1331380_pro_bono_u_string_1" type="string"/>
+        <index name="index">
+            <element name="x_1331380_pro_bono_opportunity"/>
+        </index>
+        <index name="index2">
+            <element name="x_1331380_pro_bono_time_keeper"/>
+        </index>
+    </element>
+</database>

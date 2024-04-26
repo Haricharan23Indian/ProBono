@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>existing_client_matter</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Autopopulate</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var ga = new GlideAjax("SendDetails");
+    ga.addParam("sysparm_name", "details");
+    ga.addParam("sysparm_value", newValue);
+    ga.getXML(callBackFunc);
+
+    function callBackFunc(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+        var result = JSON.parse(answer);
+        var array = ["matter_name", "client_name","matter_type","client_type", "representation_type", "referral_source", "matter_office", "deadline", "keni_request_number", "opportunity_created", "language_requriement", "date_of_keni_request_submission", "special_matter_tags"];
+        // alert(answer.matter_name);
+        for (var i = 0; i < array.length; i++) {
+            g_form.setValue(array[i], result[array[i]]);
+        }
+    }
+
+    //Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-02 09:43:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9213df75471902104e3dfe02d16d43c5</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Autopopulate</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_update_name>sys_script_client_9213df75471902104e3dfe02d16d43c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 05:38:05</sys_updated_on>
+        <table>x_1331380_pro_bono_opportunity</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</application>
+        <file_path/>
+        <instance_id>9682bbe9dbf2f51002d9172913961916</instance_id>
+        <instance_name>dev228298</instance_name>
+        <name>sys_script_client_9213df75471902104e3dfe02d16d43c5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;existing_client_matter&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Autopopulate&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var ga = new GlideAjax("SendDetails");
+    ga.addParam("sysparm_name", "details");
+    ga.addParam("sysparm_value", newValue);
+    ga.getXML(callBackFunc);
+
+    function callBackFunc(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+        var result = JSON.parse(answer);
+        var array = ["matter_name", "client_name","matter_type","client_type", "representation_type", "referral_source", "matter_office", "deadline", "keni_request_number", "opportunity_created", "language_requriement", "date_of_keni_request_submission", "special_matter_tags"];
+        // alert(answer.matter_name);
+        for (var i = 0; i &lt; array.length; i++) {
+            g_form.setValue(array[i], result[array[i]]);
+        }
+    }
+
+    //Type appropriate comment here, and begin script below
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-02 09:43:08&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9213df75471902104e3dfe02d16d43c5&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;Autopopulate&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono"&gt;8b514b8647c502104e3dfe02d16d4300&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Pro Bono ServiceNow"&gt;8b514b8647c502104e3dfe02d16d4300&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_9213df75471902104e3dfe02d16d43c5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-04 05:38:05&lt;/sys_updated_on&gt;&lt;table&gt;x_1331380_pro_bono_opportunity&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>540898035</payload_hash>
+        <record_name>Autopopulate</record_name>
+        <reverted_from/>
+        <source>c7514b8647c502104e3dfe02d16d4302</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 05:38:05</sys_created_on>
+        <sys_id>066fe4e647d102104e3dfe02d16d438c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea79d45e30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 05:38:05</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>8a6fe4e684d10210ec310a7951a4768b</update_guid>
+        <update_guid_history>8a6fe4e684d10210ec310a7951a4768b:540898035,a05ea3f10499021095fe9954847b72c0:840062565,c9ad67b935990210f0c15739c7d41baa:882226415,6baae77531990210a141d41bbb8cbc4a:1427192813,22c9af3510990210c42cf6243c241e83:-982441239,6d08233189990210e885cdc1e712e67e:-18482153,29d7a331949902104c42bc0f48f0214a:506003881,98762ffdcf59021092a4496027209b46:-1367435414,1926633136990210b93ee06fc7a49caf:97309203,75e5ebbded590210f7ccd64d1bf93f28:-947601838,7eb5e3fd1b590210c713d49a9a6b5c31:97309203,3a456fbd1f590210ee9fd83a12846cd9:-1421318626,e6f463bd40590210eff0b3e9ee3fe59d:1128459672,ecc463bd87590210215311c515d72c01:1793715897,d7742bf5e7590210372b7d86c66d4a3a:-2092332364,9b959bb5df190210fadd73f51f573dc9:-1268013386,77445ff5d3190210c1cf386df1720311:-1157579490</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 10:18:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>127e5416884c443c853ad689b5e65d10</sys_id>
+        <sys_metadata>9213df75471902104e3dfe02d16d43c5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Autopopulate</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_parent display_value="Opportunity">81f1078e47c502104e3dfe02d16d430b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_scope_delete display_value="">791f3a0a28c94d589fc76c1a049ec689</sys_scope_delete>
+        <sys_update_name>sys_script_client_9213df75471902104e3dfe02d16d43c5</sys_update_name>
+        <sys_update_version display_value="sys_script_client_9213df75471902104e3dfe02d16d43c5">066fe4e647d102104e3dfe02d16d438c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 10:18:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

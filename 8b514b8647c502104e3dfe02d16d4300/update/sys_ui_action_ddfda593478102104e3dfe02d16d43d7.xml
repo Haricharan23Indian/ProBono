@@ -29,33 +29,37 @@
         <messages/>
         <name>Shortlist User</name>
         <onclick>recordDetails()</onclick>
-        <order>200</order>
+        <order>100</order>
         <script><![CDATA[function recordDetails(){
 	var checkedRecord=g_list.getChecked();
+	var search=new URLSearchParams(top.location.search);
 	if(checkedRecord!=""){
 		var ga=new GlideAjax("StaffingOutreach");
 	ga.addParam("sysparm_name","details");
 	ga.addParam("sysparm_value",checkedRecord);
+	ga.addParam("opportunity_id", search.get("sys_id"));
 	ga.getXML(callBackFunction);
-	reloadPage();
+	
 
 	}
 	
 	function callBackFunction(response){
 		var answer=response.responseXML.documentElement.getAttribute("answer");
+		reloadPage();
 	}
 	function reloadPage(){
-		var ga=new GlideAjax("Refresh");
-		ga.addParam("sysparm_name","getID");
-		ga.getXML(callbackfunc);
-		function callbackfunc(response){
-			var answer=response.responseXML.documentElement.getAttribute("answer");
+		// var ga=new GlideAjax("Refresh");
+		// ga.addParam("sysparm_name","getID");
+		// ga.getXML(callbackfunc);
+		// function callbackfunc(response){
+		// 	var answer=response.responseXML.documentElement.getAttribute("answer");
+			
 			var tableName = 'x_1331380_pro_bono_opportunity';
-            var url = '/' + tableName + '.do?sys_id=' + answer;
+            var url = '/' + tableName + '.do?sys_id=' + search.get("sys_id");
             top.location.href = url;
 		}
 	}
-}
+
 ]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -67,7 +71,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ddfda593478102104e3dfe02d16d43d7</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Shortlist User</sys_name>
         <sys_overrides/>
         <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
@@ -75,7 +79,7 @@
         <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
         <sys_update_name>sys_ui_action_ddfda593478102104e3dfe02d16d43d7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-03 05:11:55</sys_updated_on>
+        <sys_updated_on>2024-04-12 11:16:05</sys_updated_on>
         <table>x_1331380_pro_bono_time_keeper_register</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

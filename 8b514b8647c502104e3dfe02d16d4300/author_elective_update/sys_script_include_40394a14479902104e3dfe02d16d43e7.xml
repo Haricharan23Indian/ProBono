@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1331380_pro_bono.MatterDetails</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>MatterDetails</name>
+        <script><![CDATA[var MatterDetails = Class.create();
+MatterDetails.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	details:function(){
+		var gr=new GlideRecord("x_1331380_pro_bono_foundation_attribute_data");
+		gr.get(this.getParamter('sysparm_value'));
+		return gr.value;
+		
+
+	},
+
+    type: 'MatterDetails'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-28 12:24:30</sys_created_on>
+        <sys_id>40394a14479902104e3dfe02d16d43e7</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>MatterDetails</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_update_name>sys_script_include_40394a14479902104e3dfe02d16d43e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-29 06:05:14</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</application>
+        <file_path/>
+        <instance_id>9682bbe9dbf2f51002d9172913961916</instance_id>
+        <instance_name>dev228298</instance_name>
+        <name>sys_script_include_40394a14479902104e3dfe02d16d43e7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1331380_pro_bono.MatterDetails&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;MatterDetails&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var MatterDetails = Class.create();
+MatterDetails.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	details:function(){
+		var gr=new GlideRecord("x_1331380_pro_bono_foundation_attribute_data");
+		gr.get(this.getParamter('sysparm_value'));
+		return gr.value;
+		
+
+	},
+
+    type: 'MatterDetails'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-28 12:24:30&lt;/sys_created_on&gt;&lt;sys_id&gt;40394a14479902104e3dfe02d16d43e7&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;MatterDetails&lt;/sys_name&gt;&lt;sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono"&gt;8b514b8647c502104e3dfe02d16d4300&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Pro Bono ServiceNow"&gt;8b514b8647c502104e3dfe02d16d4300&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_40394a14479902104e3dfe02d16d43e7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-29 06:05:14&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1392858269</payload_hash>
+        <record_name>MatterDetails</record_name>
+        <reverted_from/>
+        <source>8df3c31a474902104e3dfe02d16d43e3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-29 06:05:14</sys_created_on>
+        <sys_id>c51c71ec471102104e3dfe02d16d4304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e88cff6a70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-29 06:05:14</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>8d1c71ec1e1102107439f12fe5bebe03</update_guid>
+        <update_guid_history>8d1c71ec1e1102107439f12fe5bebe03:-1392858269,25bb3dacff1102103ddd64ca3ac0cb61:-1770073029,8e8b31ecd1110210fcecb8681f7848fc:-1302773187,3f7bf9ec2711021011c72cb9571c80ea:658115110,e0eaf92c60110210720ee23709b014c6:1823236690,096839a88c1102104a4195bf4053fdae:-33300684,972835e8f311021059eba8704d9297fa:-607455593,f8d4b5a4a8110210b3d6b4e81cfaba60:484019438,83e37964f211021065dd399efe29c1f0:2060635336,bef1965c4c990210cbc91dd23c9cf52b:1758280963,b2f9ca14a5990210c513ecd0b06d1910:-2107137939,bda90e1474990210f5a646edf0150c8d:2075701402,07490e14e4990210211997983ee62a32:-780744724</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-29 06:06:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>7d3fdaeec6eb40d89c8e3c5ef73d5031</sys_id>
+        <sys_metadata>40394a14479902104e3dfe02d16d43e7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MatterDetails</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_scope_delete display_value="">791f3a0a28c94d589fc76c1a049ec689</sys_scope_delete>
+        <sys_update_name>sys_script_include_40394a14479902104e3dfe02d16d43e7</sys_update_name>
+        <sys_update_version display_value="sys_script_include_40394a14479902104e3dfe02d16d43e7">c51c71ec471102104e3dfe02d16d4304</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-29 06:06:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

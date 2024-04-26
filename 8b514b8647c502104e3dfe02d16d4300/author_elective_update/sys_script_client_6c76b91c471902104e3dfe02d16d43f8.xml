@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>matter_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>immigration</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+   var ga=new GlideAjax("MatterDetails");
+   ga.addParam("sysparm_name","details");
+   ga.addParam("sysparm_value",newValue);
+   ga.getXML(callbackfunc);
+   function callbackfunc(response){
+	var answer=response.responseXML.documentElement.getAttribute("answer");
+	alert(answer);
+   }
+
+   
+   
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-28 11:24:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6c76b91c471902104e3dfe02d16d43f8</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>immigration</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_update_name>sys_script_client_6c76b91c471902104e3dfe02d16d43f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-29 06:00:15</sys_updated_on>
+        <table>x_1331380_pro_bono_opportunity</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</application>
+        <file_path/>
+        <instance_id>9682bbe9dbf2f51002d9172913961916</instance_id>
+        <instance_name>dev228298</instance_name>
+        <name>sys_script_client_6c76b91c471902104e3dfe02d16d43f8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;matter_type&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;immigration&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+   var ga=new GlideAjax("MatterDetails");
+   ga.addParam("sysparm_name","details");
+   ga.addParam("sysparm_value",newValue);
+   ga.getXML(callbackfunc);
+   function callbackfunc(response){
+	var answer=response.responseXML.documentElement.getAttribute("answer");
+	alert(answer);
+   }
+
+   
+   
+
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-28 11:24:28&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6c76b91c471902104e3dfe02d16d43f8&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;immigration&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono"&gt;8b514b8647c502104e3dfe02d16d4300&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Pro Bono ServiceNow"&gt;8b514b8647c502104e3dfe02d16d4300&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_6c76b91c471902104e3dfe02d16d43f8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-29 06:00:15&lt;/sys_updated_on&gt;&lt;table&gt;x_1331380_pro_bono_opportunity&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1401951756</payload_hash>
+        <record_name>immigration</record_name>
+        <reverted_from/>
+        <source>8df3c31a474902104e3dfe02d16d43e3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-29 06:00:15</sys_created_on>
+        <sys_id>88fa3dac471102104e3dfe02d16d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e88cb68040000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-29 06:00:15</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>40fa3dac85110210e27edf5b466583be</update_guid>
+        <update_guid_history>40fa3dac85110210e27edf5b466583be:1401951756,5338bda4081102106e1c4a8a1e98e6ab:-858015188,ee06b56431110210e6bddfc8185b5da6:1401951756,d0143564c3110210c15304c153bf6169:-547236340,a04371a020110210d427fcbdcfac4650:1960894929,bb421610e6d902100a7af39d0f17b514:-547236340,d422525ca6990210de87b4c05a037786:-1411841556,f302525cd2990210560abf19f417af82:-360739416,8ecf8a54ec990210e222754ae5e5aba2:1196659899,516ac214b1990210d19ccfb5db370ce6:-360739416,e5c80214c79902106ccb1264f3b54a47:-508869260,55bef1d4275902104a57fd99e97a154c:1390488791,85dd3194b4590210598a067251c39dbc:1028693130,538b71d03c5902103d2f763636a3ea48:1349522301</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-29 06:06:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>2c7739ded64946668b194aafc16ec4b1</sys_id>
+        <sys_metadata>6c76b91c471902104e3dfe02d16d43f8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>immigration</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_parent display_value="Opportunity">81f1078e47c502104e3dfe02d16d430b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_scope_delete display_value="">791f3a0a28c94d589fc76c1a049ec689</sys_scope_delete>
+        <sys_update_name>sys_script_client_6c76b91c471902104e3dfe02d16d43f8</sys_update_name>
+        <sys_update_version display_value="sys_script_client_6c76b91c471902104e3dfe02d16d43f8">88fa3dac471102104e3dfe02d16d43be</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-29 06:06:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

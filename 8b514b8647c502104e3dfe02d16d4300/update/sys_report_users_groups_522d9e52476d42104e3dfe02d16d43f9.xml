@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id display_value="ProBono Extended Support" name="ProBono Extended Support">2190a2a5475902104e3dfe02d16d433a</group_id>
+        <report_id display_value="Restaffing">4d1dda52476d42104e3dfe02d16d43bb</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-16 05:14:51</sys_created_on>
+        <sys_id>522d9e52476d42104e3dfe02d16d43f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4d1dda52476d42104e3dfe02d16d43bb</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_update_name>sys_report_users_groups_522d9e52476d42104e3dfe02d16d43f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-16 05:14:51</sys_updated_on>
+        <user_id/>
+    </sys_report_users_groups>
+</record_update>

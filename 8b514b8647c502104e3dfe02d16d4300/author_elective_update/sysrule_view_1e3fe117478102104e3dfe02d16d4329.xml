@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view">
+    <sysrule_view action="DELETE">
+        <active>true</active>
+        <advanced>true</advanced>
+        <condition/>
+        <description/>
+        <device_type>browser</device_type>
+        <match_conditions>ALL</match_conditions>
+        <name>Default</name>
+        <order>100</order>
+        <overrides_user_preference>true</overrides_user_preference>
+        <script><![CDATA[(function overrideView(view, is_list) {
+
+    // Add your code here
+    if (is_list) {
+        answer = "";
+    }
+    // set the new view to answer
+
+})(view, is_list);]]></script>
+        <sys_class_name>sysrule_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 08:10:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1e3fe117478102104e3dfe02d16d4329</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_update_name>sysrule_view_1e3fe117478102104e3dfe02d16d4329</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 08:11:37</sys_updated_on>
+        <table>x_1331380_pro_bono_time_keeper_register</table>
+        <view>Default View</view>
+    </sysrule_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</application>
+        <file_path/>
+        <instance_id>9682bbe9dbf2f51002d9172913961916</instance_id>
+        <instance_name>dev228298</instance_name>
+        <name>sysrule_view_1e3fe117478102104e3dfe02d16d4329</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysrule_view"&gt;&lt;sysrule_view action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition/&gt;&lt;description/&gt;&lt;device_type&gt;browser&lt;/device_type&gt;&lt;match_conditions&gt;ALL&lt;/match_conditions&gt;&lt;name&gt;Default&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;overrides_user_preference&gt;true&lt;/overrides_user_preference&gt;&lt;script&gt;&lt;![CDATA[(function overrideView(view, is_list) {
+
+    // Add your code here
+    if (is_list) {
+        answer = "";
+    }
+    // set the new view to answer
+
+})(view, is_list);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysrule_view&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-25 08:10:46&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1e3fe117478102104e3dfe02d16d4329&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Default&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono"&gt;8b514b8647c502104e3dfe02d16d4300&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Pro Bono ServiceNow"&gt;8b514b8647c502104e3dfe02d16d4300&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysrule_view_1e3fe117478102104e3dfe02d16d4329&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-25 08:11:37&lt;/sys_updated_on&gt;&lt;table&gt;x_1331380_pro_bono_time_keeper_register&lt;/table&gt;&lt;view&gt;Default View&lt;/view&gt;&lt;/sysrule_view&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2043974767</payload_hash>
+        <record_name>Default</record_name>
+        <reverted_from/>
+        <source>c7514b8647c502104e3dfe02d16d4302</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 08:11:37</sys_created_on>
+        <sys_id>5da23dd3478102104e3dfe02d16d4303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e74aa3bf50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 08:11:37</sys_updated_on>
+        <type>View Rule</type>
+        <update_guid>91a23dd3388102105d332956a4bad503</update_guid>
+        <update_guid_history>91a23dd3388102105d332956a4bad503:2043974767,bc723d1b73810210bfb4c0731734c701:1169601111</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-28 09:35:04</sys_created_on>
+        <sys_db_object display_value="" name="sysrule_view">sysrule_view</sys_db_object>
+        <sys_id>79f6e63a5dd3421ab1c0864aa0aabc19</sys_id>
+        <sys_metadata>1e3fe117478102104e3dfe02d16d4329</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_parent display_value="Time Keeper Register">bfb05b82474902104e3dfe02d16d43b7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_scope_delete display_value="">791f3a0a28c94d589fc76c1a049ec689</sys_scope_delete>
+        <sys_update_name>sysrule_view_1e3fe117478102104e3dfe02d16d4329</sys_update_name>
+        <sys_update_version display_value="sysrule_view_1e3fe117478102104e3dfe02d16d4329">5da23dd3478102104e3dfe02d16d4303</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-28 09:35:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

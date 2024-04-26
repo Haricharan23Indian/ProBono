@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-03 10:53:14</sys_created_on>
+        <sys_id>60fd249a475902104e3dfe02d16d4373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1331380_pro_bono_referral_source.snc_internal</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_security_acl display_value="">e49e9346478902104e3dfe02d16d4393</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_60fd249a475902104e3dfe02d16d4373</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 10:53:14</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</application>
+        <file_path/>
+        <instance_id>9682bbe9dbf2f51002d9172913961916</instance_id>
+        <instance_name>dev228298</instance_name>
+        <name>sys_security_acl_role_60fd249a475902104e3dfe02d16d4373</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-03 10:53:14</sys_created_on><sys_id>60fd249a475902104e3dfe02d16d4373</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1331380_pro_bono_referral_source.snc_internal</sys_name><sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package><sys_policy/><sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope><sys_security_acl display_value="">e49e9346478902104e3dfe02d16d4393</sys_security_acl><sys_update_name>sys_security_acl_role_60fd249a475902104e3dfe02d16d4373</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-03 10:53:14</sys_updated_on><sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-268413977</payload_hash>
+        <record_name>x_1331380_pro_bono_referral_source.snc_internal</record_name>
+        <reverted_from/>
+        <source>852a8620471102104e3dfe02d16d4316</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-03-29 07:06:41</sys_created_on>
+        <sys_id>818cb43f47d986104e3dfe02d16d433b</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18e890837e80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Access Roles</type>
+        <update_guid>418cb43f00d986102ff59cf00ccd033b</update_guid>
+        <update_guid_history>418cb43f00d986102ff59cf00ccd033b:-268413977</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1331380_pro_bono_referral_source.snc_internal">898cb43f47d986104e3dfe02d16d433b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-08 03:47:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>3c0cf2a042c747a085dc1c0764a988e4</sys_id>
+        <sys_metadata>60fd249a475902104e3dfe02d16d4373</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1331380_pro_bono_referral_source.snc_internal</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_parent display_value="">e49e9346478902104e3dfe02d16d4393</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_scope_delete display_value="">791f3a0a28c94d589fc76c1a049ec689</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_60fd249a475902104e3dfe02d16d4373</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_60fd249a475902104e3dfe02d16d4373">818cb43f47d986104e3dfe02d16d433b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-08 03:47:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

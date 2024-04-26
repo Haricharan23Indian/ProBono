@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_1331380_pro_bono.sendOpportunityDetails</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>sendOpportunityDetails</name>
+        <script/>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-02 12:48:43</sys_created_on>
+        <sys_id>4a7eb7b1471d02104e3dfe02d16d4359</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>sendOpportunityDetails</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_update_name>sys_script_include_4a7eb7b1471d02104e3dfe02d16d4359</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 03:02:41</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</application>
+        <file_path/>
+        <instance_id>9682bbe9dbf2f51002d9172913961916</instance_id>
+        <instance_name>dev228298</instance_name>
+        <name>sys_script_include_4a7eb7b1471d02104e3dfe02d16d4359</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include"><sys_script_include action="INSERT_OR_UPDATE"><access>package_private</access><active>false</active><api_name>x_1331380_pro_bono.sendOpportunityDetails</api_name><caller_access/><client_callable>false</client_callable><description/><name>sendOpportunityDetails</name><script/><sys_class_name>sys_script_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-02 12:48:43</sys_created_on><sys_id>4a7eb7b1471d02104e3dfe02d16d4359</sys_id><sys_mod_count>5</sys_mod_count><sys_name>sendOpportunityDetails</sys_name><sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package><sys_policy>read</sys_policy><sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope><sys_update_name>sys_script_include_4a7eb7b1471d02104e3dfe02d16d4359</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-03 03:02:41</sys_updated_on></sys_script_include></record_update>]]></payload>
+        <payload_hash>-827456557</payload_hash>
+        <record_name>sendOpportunityDetails</record_name>
+        <reverted_from/>
+        <source>e332d23d479102104e3dfe02d16d4355</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-03 03:02:41</sys_created_on>
+        <sys_id>6f32030a471102104e3dfe02d16d43c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea1e8a0cf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 03:02:41</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>2732030ab7110210098d5cb5a362e7c6</update_guid>
+        <update_guid_history>2732030ab7110210098d5cb5a362e7c6:-827456557,3cd00f46b6110210359f639df46850f4:1868113306,166184829f1d0210f3b7f053d3b77962:-1415412530,617f3fb1e01d0210579df151d53e5bef:-316258120,cbdebfb19c1d0210ea77a205e1a97da9:-1145287483,16ce3fb1591d021029df490b05723fdc:1199598535</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 10:26:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>a67cc1df187d4830a5241abb61df2b24</sys_id>
+        <sys_metadata>4a7eb7b1471d02104e3dfe02d16d4359</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sendOpportunityDetails</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_scope_delete display_value="">791f3a0a28c94d589fc76c1a049ec689</sys_scope_delete>
+        <sys_update_name>sys_script_include_4a7eb7b1471d02104e3dfe02d16d4359</sys_update_name>
+        <sys_update_version display_value="sys_script_include_4a7eb7b1471d02104e3dfe02d16d4359">6f32030a471102104e3dfe02d16d43c6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 10:26:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

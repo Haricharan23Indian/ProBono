@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_1331380_pro_bono_opportunity">matter_typeLIKEac7e1e56478502104e3dfe02d16d4392^EQ<item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="false" value="ac7e1e56478502104e3dfe02d16d4392"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	g_form.setSectionDisplay("immigration",false);
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	g_form.setSectionDisplay('immigration',true);
+}]]></script_true>
+        <set_values/>
+        <short_description>Hide Immigration section when Matter Type is not Immigartion</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 08:49:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dabd5e16478502104e3dfe02d16d4331</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Hide Immigration section when Matter Type is not Immigartion</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_update_name>sys_ui_policy_dabd5e16478502104e3dfe02d16d4331</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-26 05:53:40</sys_updated_on>
+        <table>x_1331380_pro_bono_opportunity</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</application>
+        <file_path/>
+        <instance_id>9682bbe9dbf2f51002d9172913961916</instance_id>
+        <instance_name>dev228298</instance_name>
+        <name>sys_ui_policy_dabd5e16478502104e3dfe02d16d4331</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_1331380_pro_bono_opportunity"&gt;matter_typeLIKEac7e1e56478502104e3dfe02d16d4392^EQ&lt;item endquery="false" field="matter_type" goto="false" newquery="false" operator="LIKE" or="false" value="ac7e1e56478502104e3dfe02d16d4392"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+	g_form.setSectionDisplay("immigration",false);
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+	g_form.setSectionDisplay('immigration',true);
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Hide Immigration section when Matter Type is not Immigartion&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-22 08:49:47&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;dabd5e16478502104e3dfe02d16d4331&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Hide Immigration section when Matter Type is not Immigartion&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono"&gt;8b514b8647c502104e3dfe02d16d4300&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Pro Bono ServiceNow"&gt;8b514b8647c502104e3dfe02d16d4300&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_dabd5e16478502104e3dfe02d16d4331&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-26 05:53:40&lt;/sys_updated_on&gt;&lt;table&gt;x_1331380_pro_bono_opportunity&lt;/table&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>516959039</payload_hash>
+        <record_name>Hide Immigration section when Matter Type is not Immigartion</record_name>
+        <reverted_from/>
+        <source>c7514b8647c502104e3dfe02d16d4302</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-26 05:53:40</sys_created_on>
+        <sys_id>5eac5e2347c102104e3dfe02d16d4367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e79524cae0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-26 05:53:40</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>16ac5e23cac10210efa0c4dba2481267</update_guid>
+        <update_guid_history>16ac5e23cac10210efa0c4dba2481267:516959039,8f6b56ef050102104da254affa932cec:-543128902,c43b12af12810210864a463851e63706:-689934546,11fe9656ad850210bb90b05aac0d5f5b:-632100756,0f9e1296d2850210a0476eeeb6c6c13c:874918234</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-28 11:24:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>91d3a24b4274443f999a4119ed76d781</sys_id>
+        <sys_metadata>dabd5e16478502104e3dfe02d16d4331</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hide Immigration section when Matter Type is not Immigartion</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_parent display_value="Opportunity">81f1078e47c502104e3dfe02d16d430b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_scope_delete display_value="">791f3a0a28c94d589fc76c1a049ec689</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_dabd5e16478502104e3dfe02d16d4331</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_dabd5e16478502104e3dfe02d16d4331">5eac5e2347c102104e3dfe02d16d4367</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-28 11:24:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

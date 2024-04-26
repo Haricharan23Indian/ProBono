@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="DELETE">
+        <dashboard display_value="Pro Bono DashBoard">427f5462479102104e3dfe02d16d435c</dashboard>
+        <delete>false</delete>
+        <group display_value="ProBono Extended Support" name="ProBono Extended Support">2190a2a5475902104e3dfe02d16d433a</group>
+        <identity>2190a2a5475902104e3dfe02d16d433a</identity>
+        <read>true</read>
+        <role/>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 06:51:22</sys_created_on>
+        <sys_id>5b2085ae471502104e3dfe02d16d433c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>2190a2a5475902104e3dfe02d16d433a</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_5b2085ae471502104e3dfe02d16d433c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 06:53:43</sys_updated_on>
+        <type>2</type>
+        <user/>
+        <write>true</write>
+    </pa_dashboards_permissions>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</application>
+        <file_path/>
+        <instance_id>9682bbe9dbf2f51002d9172913961916</instance_id>
+        <instance_name>dev228298</instance_name>
+        <name>pa_dashboards_permissions_5b2085ae471502104e3dfe02d16d433c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions"><pa_dashboards_permissions action="INSERT_OR_UPDATE"><dashboard display_value="Pro Bono DashBoard">427f5462479102104e3dfe02d16d435c</dashboard><delete>false</delete><group display_value="ProBono Extended Support" name="ProBono Extended Support">2190a2a5475902104e3dfe02d16d433a</group><identity>2190a2a5475902104e3dfe02d16d433a</identity><read>true</read><role/><sys_class_name>pa_dashboards_permissions</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-04 06:51:22</sys_created_on><sys_id>5b2085ae471502104e3dfe02d16d433c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>2190a2a5475902104e3dfe02d16d433a</sys_name><sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package><sys_policy/><sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope><sys_update_name>pa_dashboards_permissions_5b2085ae471502104e3dfe02d16d433c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-04 06:53:43</sys_updated_on><type>2</type><user/><write>true</write></pa_dashboards_permissions></record_update>]]></payload>
+        <payload_hash>686020663</payload_hash>
+        <record_name>2190a2a5475902104e3dfe02d16d433a</record_name>
+        <reverted_from/>
+        <source>c7514b8647c502104e3dfe02d16d4302</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 06:53:43</sys_created_on>
+        <sys_id>71b001ee471502104e3dfe02d16d4353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea7e284460000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 06:53:43</sys_updated_on>
+        <type>Dashboard Permissions</type>
+        <update_guid>39b001ee471502104b41f32625f74152</update_guid>
+        <update_guid_history>39b001ee471502104b41f32625f74152:686020663,d72085ae91150210a414acf4e9edd23d:-1377623728</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2190a2a5475902104e3dfe02d16d433a">2bf37e6a479d02104e3dfe02d16d43fe</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 15:17:23</sys_created_on>
+        <sys_db_object display_value="" name="pa_dashboards_permissions">pa_dashboards_permissions</sys_db_object>
+        <sys_id>84fdf3190642486aa7b66b1270f28084</sys_id>
+        <sys_metadata>5b2085ae471502104e3dfe02d16d433c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2190a2a5475902104e3dfe02d16d433a</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_scope_delete display_value="">791f3a0a28c94d589fc76c1a049ec689</sys_scope_delete>
+        <sys_update_name>pa_dashboards_permissions_5b2085ae471502104e3dfe02d16d433c</sys_update_name>
+        <sys_update_version display_value="pa_dashboards_permissions_5b2085ae471502104e3dfe02d16d433c">71b001ee471502104e3dfe02d16d4353</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 15:17:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

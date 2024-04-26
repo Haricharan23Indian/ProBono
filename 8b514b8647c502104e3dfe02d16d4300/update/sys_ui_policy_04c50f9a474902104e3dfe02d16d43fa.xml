@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>04c50f9a474902104e3dfe02d16d43fa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Status Changes to KENI Submitted Make the Fields Mandatory</sys_name>
         <sys_overrides/>
         <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
         <sys_update_name>sys_ui_policy_04c50f9a474902104e3dfe02d16d43fa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-22 11:42:08</sys_updated_on>
+        <sys_updated_on>2024-04-10 09:45:42</sys_updated_on>
         <table>x_1331380_pro_bono_opportunity</table>
         <ui_type>0</ui_type>
         <view/>

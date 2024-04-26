@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name/>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>(current.status=="1" &amp;&amp; !current.isNewRecord());</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Cancel</name>
+        <onclick>onCancel()</onclick>
+        <order>100</order>
+        <script><![CDATA[function onCancel() {
+	// var notes=g_form.getDisplayValue();
+	// var comments=g_form.getDisplayValue();
+	// g_form.addErrorMessage("The below fields are mandatory before going to camcelled");
+	g_form.setMandatory("sensitive_notes", true);
+	g_form.setmandatory("comment", true);
+	// g_form.setValue("status", "6","Cancelled");
+	// g_form.submit();
+}
+
+        
+	]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-27 05:42:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2721e37b478102104e3dfe02d16d43c5</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>Cancel</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_update_name>sys_ui_action_2721e37b478102104e3dfe02d16d43c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-27 06:46:26</sys_updated_on>
+        <table>x_1331380_pro_bono_opportunity</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</application>
+        <file_path/>
+        <instance_id>9682bbe9dbf2f51002d9172913961916</instance_id>
+        <instance_name>dev228298</instance_name>
+        <name>sys_ui_action_2721e37b478102104e3dfe02d16d43c5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;(current.status=="1" &amp;amp;&amp;amp; !current.isNewRecord());&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Cancel&lt;/name&gt;&lt;onclick&gt;onCancel()&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function onCancel() {
+	// var notes=g_form.getDisplayValue();
+	// var comments=g_form.getDisplayValue();
+	// g_form.addErrorMessage("The below fields are mandatory before going to camcelled");
+	g_form.setMandatory("sensitive_notes", true);
+	g_form.setmandatory("comment", true);
+	// g_form.setValue("status", "6","Cancelled");
+	// g_form.submit();
+}
+
+        
+	]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-27 05:42:44&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2721e37b478102104e3dfe02d16d43c5&lt;/sys_id&gt;&lt;sys_mod_count&gt;23&lt;/sys_mod_count&gt;&lt;sys_name&gt;Cancel&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono"&gt;8b514b8647c502104e3dfe02d16d4300&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Pro Bono ServiceNow"&gt;8b514b8647c502104e3dfe02d16d4300&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_2721e37b478102104e3dfe02d16d43c5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-27 06:46:26&lt;/sys_updated_on&gt;&lt;table&gt;x_1331380_pro_bono_opportunity&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-906649212</payload_hash>
+        <record_name>Cancel</record_name>
+        <reverted_from/>
+        <source>c7514b8647c502104e3dfe02d16d4302</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-27 06:46:27</sys_created_on>
+        <sys_id>0d5273bb47c102104e3dfe02d16d435a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e7ea8f9c60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-27 06:46:27</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>c15273bbd8c10210852a32c9b54c845a</update_guid>
+        <update_guid_history>c15273bbd8c10210852a32c9b54c845a:-906649212,99df237fd5c1021005009deba7310ffd:-1723456994,c81f273f1ec10210638302fe64b3960d:-1499819551,aa9e6bfbe5c102108f926821ea34d4f4:159297436,623eefbbb0c102107fdf60c8a0355b6c:1727791359,b62e63b7c3c10210540db23d3fe12979:-49052329,1a1e6fbb69c102101bb8b2fe27ec705d:139519196,7a2dab7b7bc10210dd261f5457c7e908:-218347874,e74b63b7d5c10210999c80eea0ef1d10:-299692251,1daa63b7d8c102101c6b2963b3087170:-802243277,275aa7f329c10210f3cd0840635e9759:-1967294821,00886bf39bc10210fdb52c99361b85e3:505411057,a7082733f5c1021043e24c5a09ac5a48:-616108717,58d66bff0f810210a7e5e6d1d2982898:241798944,f496e7ffa38102109a45d3a832fa7efd:-1898504136,5d86ebbff5810210876080c24bbf3d1e:797113880,f226e33302c1021005188f1e39a541d0:308307236,77162f3f51810210d971b27ddb14e812:767299043,2db52bffc8810210ec8af63ecaa3e196:-28587868,99a5e3ff398102109fa77348b6c11e7e:-833305031,d475ebbf668102108c4c4b33cfa42bfe:767994278,a145e73f6181021064ba161be4c3d9d9:819585449,6e152b3fed810210e31af7ceac753f43:-2143744940,33b32f3fe68102109b1ae2ace91fb20b:-826598691</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-27 06:51:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>13428de50659407891e07699ffda7440</sys_id>
+        <sys_metadata>2721e37b478102104e3dfe02d16d43c5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cancel</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_parent display_value="Opportunity">81f1078e47c502104e3dfe02d16d430b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_scope_delete display_value="">791f3a0a28c94d589fc76c1a049ec689</sys_scope_delete>
+        <sys_update_name>sys_ui_action_2721e37b478102104e3dfe02d16d43c5</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_2721e37b478102104e3dfe02d16d43c5">0d5273bb47c102104e3dfe02d16d435a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-27 06:51:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

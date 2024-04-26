@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>keni_request_number</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-02 07:46:28</sys_created_on>
+        <sys_id>329932f1479502104e3dfe02d16d438c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>keni_request_number</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_update_name>sys_ui_policy_action_329932f1479502104e3dfe02d16d438c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-02 07:46:28</sys_updated_on>
+        <table>x_1331380_pro_bono_opportunity</table>
+        <ui_policy display_value="Making Fields Mandatory When Status is In Draft">2859ce5a470502104e3dfe02d16d4397</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</application>
+        <file_path/>
+        <instance_id>9682bbe9dbf2f51002d9172913961916</instance_id>
+        <instance_name>dev228298</instance_name>
+        <name>sys_ui_policy_action_329932f1479502104e3dfe02d16d438c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>keni_request_number</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-02 07:46:28</sys_created_on><sys_id>329932f1479502104e3dfe02d16d438c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>keni_request_number</sys_name><sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package><sys_policy/><sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope><sys_update_name>sys_ui_policy_action_329932f1479502104e3dfe02d16d438c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-02 07:46:28</sys_updated_on><table>x_1331380_pro_bono_opportunity</table><ui_policy display_value="Making Fields Mandatory When Status is In Draft">2859ce5a470502104e3dfe02d16d4397</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1170452460</payload_hash>
+        <record_name>keni_request_number</record_name>
+        <reverted_from/>
+        <source>e332d23d479102104e3dfe02d16d4355</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-02 07:46:28</sys_created_on>
+        <sys_id>769932f1479502104e3dfe02d16d438e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e9dc615480000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-02 07:46:28</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>7a9932f1029502101fcf87d744a67c8d</update_guid>
+        <update_guid_history>7a9932f1029502101fcf87d744a67c8d:1170452460</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-02 08:43:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>314657eb9cd541a6906b9307e6ec36a4</sys_id>
+        <sys_metadata>329932f1479502104e3dfe02d16d438c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>keni_request_number</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_parent display_value="Making Fields Mandatory When Status is In Draft">2859ce5a470502104e3dfe02d16d4397</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_scope_delete display_value="">791f3a0a28c94d589fc76c1a049ec689</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_329932f1479502104e3dfe02d16d438c</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_329932f1479502104e3dfe02d16d438c">769932f1479502104e3dfe02d16d438e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-02 08:43:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

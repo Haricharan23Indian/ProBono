@@ -10,9 +10,21 @@
         <script><![CDATA[var MatterDetails = Class.create();
 MatterDetails.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 	details:function(){
-		var gr=new GlideRecord("x_1331380_pro_bono_foundation_attribute_data");
-		gr.get(this.getParameter("sysparm_value"));
-		return gr.value.split("-")[0].toLowerCase();
+		var sysID=this.getParameter("sysparm_value").split(",");
+		for(var i=0;i<sysID.length;i++){
+			var gr=new GlideRecord("x_1331380_pro_bono_foundation_attribute_data");
+			gr.get(sysID[i].toString());
+			var value=gr.getValue("value");
+			var imm=value.toLowerCase();
+			if(imm.includes("immigration")){
+				return 'true';
+			}
+
+
+		}
+		return "false";
+		
+
 	},
 
     type: 'MatterDetails'
@@ -21,13 +33,13 @@ MatterDetails.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-29 06:08:10</sys_created_on>
         <sys_id>f0ac3560475102104e3dfe02d16d4363</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>MatterDetails</sys_name>
         <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
         <sys_update_name>sys_script_include_f0ac3560475102104e3dfe02d16d4363</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-29 12:57:58</sys_updated_on>
+        <sys_updated_on>2024-04-09 11:51:59</sys_updated_on>
     </sys_script_include>
 </record_update>

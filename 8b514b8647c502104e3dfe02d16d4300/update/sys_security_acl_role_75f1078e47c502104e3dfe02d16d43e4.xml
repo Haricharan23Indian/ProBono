@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 16:45:46</sys_created_on>
+        <sys_id>75f1078e47c502104e3dfe02d16d43e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1331380_pro_bono_opportunity.x_1331380_pro_bono.probono</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_security_acl display_value="x_1331380_pro_bono_opportunity">7df1078e47c502104e3dfe02d16d43de</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_75f1078e47c502104e3dfe02d16d43e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 16:45:46</sys_updated_on>
+        <sys_user_role display_value="x_1331380_pro_bono.probono" name="x_1331380_pro_bono.probono">a871474e47c502104e3dfe02d16d4363</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

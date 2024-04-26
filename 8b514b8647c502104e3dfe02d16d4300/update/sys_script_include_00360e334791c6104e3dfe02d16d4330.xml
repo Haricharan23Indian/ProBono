@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1331380_pro_bono.ReturnSysID</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>ReturnSysID</name>
+        <script><![CDATA[var ReturnSysID = Class.create();
+ReturnSysID.prototype = {
+    initialize: function() {},
+    userDetails: function() {
+        var us = [];
+        var gt = new GlideRecord("x_1331380_pro_bono_time_keeper_register");
+        gt.query();
+        while (gt.next()) {
+            us.push(gt.getValue("user"));
+        }
+        var rec = [];
+        var gr = new GlideRecord("sys_user");
+        gr.addActiveQuery();
+        gr.query();
+        while (gr.next()) {
+            if (!us.includes(gr.getValue("sys_id"))) {
+                rec.push(gr.getValue("sys_id"));
+            }
+        }
+
+        return "sys_idIN" + rec;
+    },
+
+    type: 'ReturnSysID'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-08 09:10:11</sys_created_on>
+        <sys_id>00360e334791c6104e3dfe02d16d4330</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>ReturnSysID</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_update_name>sys_script_include_00360e334791c6104e3dfe02d16d4330</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-08 11:11:20</sys_updated_on>
+    </sys_script_include>
+</record_update>

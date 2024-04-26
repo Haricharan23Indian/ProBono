@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1331380_pro_bono.SendOpportunityDetails</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>SendOpportunityDetails</name>
+        <script><![CDATA[var SendOpportunityDetails = Class.create();
+SendOpportunityDetails.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    auto_fill_client_details: function() {
+        var id = this.getParameter("unique_id");
+        var client_record = new GlideRecord("x_1331380_pro_bono_opportunity");
+        client_record.addQuery("sys_id", id);
+        client_record.query();
+        if (client_record.next()) {
+            var obj = {};
+            var client_array = ["client_name", "matter_name", "matter_type", "client_type", "language_requirement", "representation_type", "referral_source", "matter_office", "deadline", "keni_request_number", "matter_desciption"];
+
+            for (var i = 0; i < client_array.length; i++) {
+                obj[client_array[i]] = client_record.getValue(client_array[i]);
+            }
+
+            return JSON.stringify(obj);
+
+
+        }
+
+    },
+
+    type: 'SendOpportunityDetails'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 10:49:39</sys_created_on>
+        <sys_id>f4ffece8472902104e3dfe02d16d4334</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SendOpportunityDetails</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_update_name>sys_script_include_f4ffece8472902104e3dfe02d16d4334</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 10:53:43</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</application>
+        <file_path/>
+        <instance_id>9682bbe9dbf2f51002d9172913961916</instance_id>
+        <instance_name>dev228298</instance_name>
+        <name>sys_script_include_f4ffece8472902104e3dfe02d16d4334</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1331380_pro_bono.SendOpportunityDetails&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;SendOpportunityDetails&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var SendOpportunityDetails = Class.create();
+SendOpportunityDetails.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    auto_fill_client_details: function() {
+        var id = this.getParameter("unique_id");
+        var client_record = new GlideRecord("x_1331380_pro_bono_opportunity");
+        client_record.addQuery("sys_id", id);
+        client_record.query();
+        if (client_record.next()) {
+            var obj = {};
+            var client_array = ["client_name", "matter_name", "matter_type", "client_type", "language_requirement", "representation_type", "referral_source", "matter_office", "deadline", "keni_request_number", "matter_desciption"];
+
+            for (var i = 0; i &lt; client_array.length; i++) {
+                obj[client_array[i]] = client_record.getValue(client_array[i]);
+            }
+
+            return JSON.stringify(obj);
+
+
+        }
+
+    },
+
+    type: 'SendOpportunityDetails'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-10 10:49:39&lt;/sys_created_on&gt;&lt;sys_id&gt;f4ffece8472902104e3dfe02d16d4334&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;SendOpportunityDetails&lt;/sys_name&gt;&lt;sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono"&gt;8b514b8647c502104e3dfe02d16d4300&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Pro Bono ServiceNow"&gt;8b514b8647c502104e3dfe02d16d4300&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_f4ffece8472902104e3dfe02d16d4334&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-10 10:53:43&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1054986914</payload_hash>
+        <record_name>SendOpportunityDetails</record_name>
+        <reverted_from/>
+        <source>c7514b8647c502104e3dfe02d16d4302</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 10:53:43</sys_created_on>
+        <sys_id>3321fce8472902104e3dfe02d16d433b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ec7a4636e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 10:53:43</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>f721fce8f029021028dce22a4d52f83a</update_guid>
+        <update_guid_history>f721fce8f029021028dce22a4d52f83a:1054986914,d840bc2c8629021083749baee8a932d4:-235661817</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 11:10:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>75a86770eff746dc8c55c736ad8db471</sys_id>
+        <sys_metadata>f4ffece8472902104e3dfe02d16d4334</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SendOpportunityDetails</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_scope_delete display_value="">791f3a0a28c94d589fc76c1a049ec689</sys_scope_delete>
+        <sys_update_name>sys_script_include_f4ffece8472902104e3dfe02d16d4334</sys_update_name>
+        <sys_update_version display_value="sys_script_include_f4ffece8472902104e3dfe02d16d4334">3321fce8472902104e3dfe02d16d433b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 11:10:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="81f1078e47c502104e3dfe02d16d430b" extends="sn_customerservice_case" label="Opportunity" max_length="40" name="x_1331380_pro_bono_opportunity" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Action Needed" max_length="40" name="action_needed" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Full Audit" sequence="1" value="full_audit"/>
+                <element inactive_on_update="false" label="None" sequence="2" value="none"/>
+                <element inactive_on_update="false" label="Client Mgmt Remainder" sequence="3" value="client_mgmt_remainder"/>
+                <element inactive_on_update="false" label="Other" sequence="4" value="other"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Awards" max_length="1024" name="awards" reference="x_1331380_pro_bono_foundation_attribute_data" reference_qual="type=Awards &amp; Recognition^EQ" reference_qual_condition="type=Awards &amp; Recognition^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="A Number" max_length="9" name="a_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Case Status" max_length="40" name="case_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="In Active" sequence="2" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Client Name" max_length="40" name="client_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Client Number" max_length="40" name="client_number" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Client Type" max_length="1024" name="client_type" reference="x_1331380_pro_bono_foundation_attribute_data" reference_qual="type=Client Type^EQ" reference_qual_condition="type=Client Type^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Comment" max_length="4000" name="comment" type="journal"/>
+        <element label="Conditions Met" max_length="40" name="conditions_met" type="boolean"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Corporate Collaboration" max_length="1024" name="corporate_collaboration" reference="x_1331380_pro_bono_foundation_attribute_data" reference_qual="type=Corporate Collaboration^EQ" reference_qual_condition="type=Corporate Collaboration^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Country Of Origin" max_length="40" name="country_of_origin" reference="x_1331380_pro_bono_foundation_attribute_data" reference_qual="type=Country^EQ" reference_qual_condition="type=Country^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="C/M Number" max_length="40" name="c_m_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date Closed" max_length="40" name="date_closed" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Date Of KENI Request Submission" max_length="40" name="date_of_keni_request_submission" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Date Of Last Update" max_length="40" name="date_of_last_update" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Date Opened" max_length="40" name="date_opened" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Deadline" max_length="40" name="deadline" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="EOIR Filling Deadline" max_length="40" name="eoir_filling_deadline" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="EOIR Filling Description" max_length="40" name="eoir_filling_description" type="string"/>
+        <element label="Existing Client Matter" max_length="32" name="existing_client_matter" reference="x_1331380_pro_bono_opportunity" type="reference"/>
+        <element attributes="encode_utf8=false" label="Existing Client New Matter" max_length="32" name="existing_client_new_matter" reference="customer_contact" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Hearing Date" max_length="40" name="hearing_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Hearing Location" max_length="40" name="hearing_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Hearing Type" max_length="40" name="hearing_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Conference" value="conference"/>
+                <element inactive_on_update="false" label="Individual" value="individual"/>
+                <element inactive_on_update="false" label="Master" value="master"/>
+                <element inactive_on_update="false" label="Other" value="other"/>
+            </choice>
+        </element>
+        <element label="Hours Billed Total" max_length="40" name="hours_billed_total" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="ICE Deadlines(CK-in)" max_length="40" name="ice_deadlines_ck_in" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="ICE Description(CK-in)" max_length="40" name="ice_description_ck_in" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="KENI Request Number" max_length="40" name="keni_request_number" type="string"/>
+        <element label="KENI REQUEST NUMBER" max_length="50" name="keni_request_tab_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Language Requriement" max_length="40" name="language_requriement" reference="x_1331380_pro_bono_foundation_attribute_data" reference_qual="type=Language^EQ" reference_qual_condition="type=Language^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Date Billed" max_length="40" name="last_date_billed" type="glide_date_time"/>
+        <element label="Matter Associated With Opportunity" max_length="40" name="matter_associated_with_opportunity" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Matter Description" max_length="4000" name="matter_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Matter Name" max_length="40" name="matter_name" type="string"/>
+        <element attributes="encode_utf8=false" choice="1" label="Matter Office" max_length="32" name="matter_office" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="London" value="london"/>
+                <element inactive_on_update="false" label="Los Angels" value="los_angels"/>
+                <element inactive_on_update="false" label="Miami" value="miami"/>
+                <element inactive_on_update="false" label="Munich" value="munich"/>
+                <element inactive_on_update="false" label="NewYork" value="new_york"/>
+                <element inactive_on_update="false" label="Paris" value="paris"/>
+                <element inactive_on_update="false" label="Riyadh" value="riyadh"/>
+                <element inactive_on_update="false" label="Salt Lake City" value="salt_lake_city"/>
+                <element inactive_on_update="false" label="Shanghai" value="shanghai"/>
+                <element inactive_on_update="false" label="Washington D.C" value="washington_dc"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Matter Status" max_length="40" name="matter_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" value="active"/>
+                <element inactive_on_update="false" label="Inactive" value="in_active"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Matter Type" max_length="1024" name="matter_type" reference="x_1331380_pro_bono_foundation_attribute_data" reference_qual="type=Matter Type^EQ" reference_qual_condition="type=Matter Type^EQ" type="glide_list"/>
+        <element label="New Client" max_length="40" name="new_client" type="boolean"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="No Time Billed(Last 90 days)" max_length="1024" name="no_time_billed_last_90_days" type="glide_list"/>
+        <element attributes="encode_utf8=false" label="Office" max_length="32" name="office" reference="x_1331380_pro_bono_foundation_attribute_data" reference_qual="type=Country^EQ" reference_qual_condition="type=Country^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Opportunity Created" max_length="40" name="opportunity_created" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Deadlines" max_length="40" name="other_deadlines" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Deadline Description" max_length="40" name="other_deadline_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Referral Source" max_length="40" name="other_referral_source" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Pending Time Card Submissions(Last 90 Days)" max_length="1024" name="pending_time_card_submissions_last_90_days" reference="cmdb_multisource_deny_class" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Priority Date" max_length="40" name="priority_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Reason For Request" max_length="40" name="reason_for_request" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Additional Request" value="additional_request"/>
+                <element inactive_on_update="false" label="New Matter" value="new_matter"/>
+                <element inactive_on_update="false" label="Restaffing" value="restaffing"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="referral source" max_length="1024" name="referral_source" reference="customer_account" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Representation Type" max_length="1024" name="representation_type" reference="x_1331380_pro_bono_foundation_attribute_data" reference_qual="type=Representation Type^EQ" reference_qual_condition="type=Representation Type^EQ" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" choice="1" label="Responsible Office" max_length="1024" name="responsible_office" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Austin" sequence="1" value="austin"/>
+                <element inactive_on_update="false" label="Bay Area" sequence="2" value="bay_area"/>
+                <element inactive_on_update="false" label="Beijing" sequence="3" value="beijing"/>
+                <element inactive_on_update="false" label="Boston" sequence="4" value="boston"/>
+                <element inactive_on_update="false" label="Brussels" sequence="5" value="brussels"/>
+                <element inactive_on_update="false" label="Chicago" sequence="6" value="chicago"/>
+                <element inactive_on_update="false" label="Dallas" sequence="7" value="dallas"/>
+                <element inactive_on_update="false" label="Hong Kong" sequence="8" value="hong_kong"/>
+                <element inactive_on_update="false" label="Los Angeles" sequence="9" value="los_angeles"/>
+                <element inactive_on_update="false" label="Miami" sequence="10" value="miami"/>
+                <element inactive_on_update="false" label="Munich" sequence="11" value="munich"/>
+                <element inactive_on_update="false" label="New York" sequence="12" value="new_york"/>
+                <element inactive_on_update="false" label="Paris" sequence="13" value="paris"/>
+                <element inactive_on_update="false" label="Riyadh" sequence="14" value="riyadh"/>
+                <element inactive_on_update="false" label="Salt Lake City" sequence="15" value="salt_lake_city"/>
+                <element inactive_on_update="false" label="Shanghai" sequence="16" value="shanghai"/>
+                <element inactive_on_update="false" label="Washington DC" sequence="17" value="washington_dc"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Responsible Partner" max_length="1024" name="responsible_partner" reference="sys_user" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Sensitive Notes" max_length="4000" name="sensitive_notes" type="journal"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Special Matter Tags" max_length="1024" name="special_matter_tags" reference="x_1331380_pro_bono_foundation_attribute_data" reference_qual="type=Special Matter Tag^EQ" reference_qual_condition="type=Special Matter Tag^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Active Opportunity" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="KENI Submitted" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="C/M Assigned" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Kick Off Email Sent" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="In Active" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="7" value="7"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="USICS Description" max_length="40" name="usics_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="USICS Filling Deadline" max_length="40" name="usics_filling_deadline" type="glide_date_time"/>
+    </element>
+</database>

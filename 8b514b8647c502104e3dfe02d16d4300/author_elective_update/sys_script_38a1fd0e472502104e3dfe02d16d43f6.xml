@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sn_customerservice_related_party</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="sn_customerservice_related_party">x_1331380_pro_bono_opportunity_acceptedCHANGESTO1^EQ<item display_value="Yes" endquery="false" field="x_1331380_pro_bono_opportunity_accepted" goto="false" newquery="false" operator="CHANGESTO" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Reduce Staffing Requirments</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+	
+	var gr=new GlideRecord("x_1331380_pro_bono_staffing_requirements");
+	
+	gr.addQuery("timekeeper_type",current.x_1331380_pro_bono_time_keeper.time_keeper_type);
+	gs.addInfoMessage(current.x_1331380_pro_bono_time_keeper.time_keeper_type);
+	
+	gr.addQuery("opportunity",current.x_1331380_pro_bono_opportunity);
+	// gs.addInfoMessage(current.x_1331380_pro_bono_opportunity);
+	gr.query();
+	if(gr.next()){
+		gs.addInfoMessage(gr.number);
+		if(gr.number>0){
+			gs.addInfoMessage(gr.number);
+			gr.number=parseInt(gr.number-1);
+			gr.update();
+		}
+	}
+	// gs.addInfoMessage('hi');
+    // var gr = new GlideRecord("x_1331380_pro_bono_staffing_requirements");
+    // gr.addQuery("timekeeper_type", current.x_1331380_pro_bono_time_keeper_);
+    // gr.addQuery("opportunity", current.x_1331380_pro_bono_opportunity);
+    // gr.query();
+    // if (gr.next()) {
+    //     gs.addInfoMessage("hello");
+    //     if(gr.number>0){
+    //     	gr.number=parseInt(gr.number-1);
+    //     	gr.update();
+    //     }
+    //     else if(gr.number<=0){
+    //     	gr.delete();
+
+    //     // }
+    // }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-15 08:34:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>38a1fd0e472502104e3dfe02d16d43f6</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name>Reduce Staffing Requirments</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_update_name>sys_script_38a1fd0e472502104e3dfe02d16d43f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-15 10:51:50</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=38a1fd0e472502104e3dfe02d16d43f6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</application>
+        <file_path/>
+        <instance_id>9682bbe9dbf2f51002d9172913961916</instance_id>
+        <instance_name>dev228298</instance_name>
+        <name>sys_script_38a1fd0e472502104e3dfe02d16d43f6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sn_customerservice_related_party&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="sn_customerservice_related_party"&gt;x_1331380_pro_bono_opportunity_acceptedCHANGESTO1^EQ&lt;item display_value="Yes" endquery="false" field="x_1331380_pro_bono_opportunity_accepted" goto="false" newquery="false" operator="CHANGESTO" or="false" value="1"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Reduce Staffing Requirments&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+	
+	var gr=new GlideRecord("x_1331380_pro_bono_staffing_requirements");
+	
+	gr.addQuery("timekeeper_type",current.x_1331380_pro_bono_time_keeper.time_keeper_type);
+	gs.addInfoMessage(current.x_1331380_pro_bono_time_keeper.time_keeper_type);
+	
+	gr.addQuery("opportunity",current.x_1331380_pro_bono_opportunity);
+	// gs.addInfoMessage(current.x_1331380_pro_bono_opportunity);
+	gr.query();
+	if(gr.next()){
+		gs.addInfoMessage(gr.number);
+		if(gr.number&gt;0){
+			gs.addInfoMessage(gr.number);
+			gr.number=parseInt(gr.number-1);
+			gr.update();
+		}
+	}
+	// gs.addInfoMessage('hi');
+    // var gr = new GlideRecord("x_1331380_pro_bono_staffing_requirements");
+    // gr.addQuery("timekeeper_type", current.x_1331380_pro_bono_time_keeper_);
+    // gr.addQuery("opportunity", current.x_1331380_pro_bono_opportunity);
+    // gr.query();
+    // if (gr.next()) {
+    //     gs.addInfoMessage("hello");
+    //     if(gr.number&gt;0){
+    //     	gr.number=parseInt(gr.number-1);
+    //     	gr.update();
+    //     }
+    //     else if(gr.number&lt;=0){
+    //     	gr.delete();
+
+    //     // }
+    // }
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-15 08:34:15&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;38a1fd0e472502104e3dfe02d16d43f6&lt;/sys_id&gt;&lt;sys_mod_count&gt;34&lt;/sys_mod_count&gt;&lt;sys_name&gt;Reduce Staffing Requirments&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono"&gt;8b514b8647c502104e3dfe02d16d4300&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Pro Bono ServiceNow"&gt;8b514b8647c502104e3dfe02d16d4300&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_38a1fd0e472502104e3dfe02d16d43f6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-15 10:51:50&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=38a1fd0e472502104e3dfe02d16d43f6"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1620031617</payload_hash>
+        <record_name>Reduce Staffing Requirments</record_name>
+        <reverted_from/>
+        <source>c7514b8647c502104e3dfe02d16d4302</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-15 10:51:50</sys_created_on>
+        <sys_id>3cb0628e472902104e3dfe02d16d4374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ee16275b10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-15 10:51:50</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>30b0628e1829021095300f2c3c389574</update_guid>
+        <update_guid_history>30b0628e1829021095300f2c3c389574:1620031617,6f30264e4b290210c9efe01f3496e73e:2065268001,690f5aca492902106c1f727f021668e5:-103349351,c0fd5e0afe2902108fb827be3055bac6:1991257695,851c12c649290210d7b55045b2619169:445670503,3ecb5e868d29021092a8325a6da222df:453420689,cf585642072902100145024e2124016a:-1206074994,b2f71a02c3290210ad73afe5ee100e05:1009644166,4d171202ef290210a943a85b3f719215:2011144615,68075e8ea4e50210fe4fdfbe7bcebb18:1103105064,8e76560ea4e5021048b68a837499bc05:-580202687,1446d28e5ae50210bc8d364b55ac953a:-1185136735,b3c51e8ef3e502104b67969b57ffa330:-1005047062,d465928e07e50210747c3d126a1da4dc:-1832589583,37545e8a2fe5021052fab905728496b1:-1952727321,c7145e8a5ee50210115ce2c236813e34:350413286,5a73964a9fe502102cd7d81aa05cb49d:1648529419,7243d64a98e50210d89fc1242c7cf81b:532690145,4832564a4ce5021073e742a95f70dd78:-313886024,94a15ec6c4e5021002aee6a7e52aa31f:1052773512,10315ec664e502101ce9a93c67ecae19:-194076403,d5f092c633e50210c74ff5384a4787f0:-1114841576,85a01686fae50210d3da56ab2ac4f315:2091664338,f800de4649e502100d745ca65d2cb0a6:649697302,175f46463ce5021067c339dd34dd0631:559164707,ff8ec6825ee50210bfa2657bd6770740:1904439916,8dbdc24242e50210cf03ec0ce9939f26:1912983395,9b3c8a0239e5021010b8f77c143fb100:-1728630516,ddcb4e4ecda5021090de80c1a20d095b:-782369001,e7198e8a9ea502108c68bd49f254afe2:-822898909,5e050e8639a50210fe84d83292dbd496:742848737,e3028282b0a502100dca605f954b9504:774295949,8bd1068241a5021094154d756ee3c230:742848737,f9c10a8e3a250210ed2ea0ca5502f69e:934651831,6931464221a502109d37b136163d033d:-1235381292</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-15 10:55:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>2395f5e53079496c8f3a7dbbee497ed9</sys_id>
+        <sys_metadata>38a1fd0e472502104e3dfe02d16d43f6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reduce Staffing Requirments</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_parent display_value="Sn Customerservice Related Party">d198464a474102104e3dfe02d16d43c1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_scope_delete display_value="">791f3a0a28c94d589fc76c1a049ec689</sys_scope_delete>
+        <sys_update_name>sys_script_38a1fd0e472502104e3dfe02d16d43f6</sys_update_name>
+        <sys_update_version display_value="sys_script_38a1fd0e472502104e3dfe02d16d43f6">3cb0628e472902104e3dfe02d16d4374</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-15 10:55:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

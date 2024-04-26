@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_customerservice_related_party_configuration">
+    <sn_customerservice_related_party_configuration action="INSERT_OR_UPDATE">
+        <applies_to>x_1331380_pro_bono_opportunity</applies_to>
+        <default_responsibility/>
+        <entity_type>sys_user</entity_type>
+        <name>Staff outreach for opp</name>
+        <reference_condition/>
+        <sys_class_name>sn_customerservice_related_party_configuration</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-05 12:12:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>5003177e475582104e3dfe02d16d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Staff outreach for opp</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_update_name>sn_customerservice_related_party_configuration_5003177e475582104e3dfe02d16d4364</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-05 12:12:05</sys_updated_on>
+    </sn_customerservice_related_party_configuration>
+</record_update>

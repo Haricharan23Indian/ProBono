@@ -15,48 +15,42 @@
         g_form.setSectionDisplay("immigration", false);
         return;
     }
+    var matter = g_form.getValue("matter_type");
     var ga = new GlideAjax("MatterDetails");
     ga.addParam("sysparm_name", "details");
-    ga.addParam("sysparm_value", newValue);
+    ga.addParam("sysparm_value", matter);
     ga.getXML(callbackfunc);
 
     function callbackfunc(response) {
         var answer = response.responseXML.documentElement.getAttribute("answer");
-        alert(answer);
-        if (answer == "immigration "&& answer != null) {
+        // alert(answer);
+        if (answer == "true") {
             g_form.setSectionDisplay("immigration", true);
-			makeMandatory(true);
-
-
+            makeMandatory(true);
         } else {
-			makeMandatory(false);
+            clearFieldValues();
+            makeMandatory(false);
             g_form.setSectionDisplay("immigration", false);
 
         }
 
     }
-    var arr = ["eoir_filling_deadline","country_of_origin","eoir_filling_description","usics_description","ice_description_ck_in","other_deadline_description", "usics_filling_deadline", "ice_deadlines_ck_in", "other_deadlines", "date_of_last_update", "priority_date", "case_status", "action_needed", "responsible_office", "hearing_type", "hearing_location", "hearing_date"];
-	function makeMandatory(val){
-		for (var i = 0; i < arr.length; i++) {
-        g_form.setMandatory(arr[i], val);
-		}
+    var arr = ["a_number", "eoir_filling_deadline", "country_of_origin", "eoir_filling_description", "usics_description", "ice_description_ck_in", "other_deadline_description", "usics_filling_deadline", "ice_deadlines_ck_in", "other_deadlines", "date_of_last_update", "priority_date", "case_status", "action_needed", "responsible_office", "hearing_type", "hearing_location", "hearing_date"];
+
+    function makeMandatory(val) {
+        for (var i = 0; i < arr.length; i++) {
+            g_form.setMandatory(arr[i], val);
+
+        }
 	}
-    //     if (answer != null && answer == "Immigration ") {
-    //         g_form.setSectionDisplay("immigration", true);
 
+    function clearFieldValues() {
+        for (var i = 0; i < arr.length; i++) {
+            g_form.clearValue(arr[i]);
+        }
 
-    //     } else {
-    //         g_form.setSectionDisplay("immigartion", false);
-    //     }
-    // var arr = ["eoir_filling_deadline", "usics_filling_deadline", "ice_deadlines_ck_in", "other_deadlines", "date_of_last_update", "priority_date", "case_status", "action_needed", "responsible_office", "hearing_type", "hearing_location", "hearing_date"];
-    // for (var i = 0; i < arr.length; i++) {
-    //     g_form.setMandatory(arr[i], true);
-    // }
+    }
 
-
-
-
-    //Type appropriate comment here, and begin script below
 
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -65,7 +59,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>affc3d60475102104e3dfe02d16d435d</sys_id>
-        <sys_mod_count>63</sys_mod_count>
+        <sys_mod_count>88</sys_mod_count>
         <sys_name>Immigration</sys_name>
         <sys_overrides/>
         <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
@@ -73,7 +67,7 @@
         <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
         <sys_update_name>sys_script_client_affc3d60475102104e3dfe02d16d435d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-01 04:08:09</sys_updated_on>
+        <sys_updated_on>2024-04-10 04:58:22</sys_updated_on>
         <table>x_1331380_pro_bono_opportunity</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

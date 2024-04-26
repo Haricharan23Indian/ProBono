@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>date_of_last_update</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 08:59:52</sys_created_on>
+        <sys_id>8ce0a61a478502104e3dfe02d16d43de</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>date_of_last_update</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_update_name>sys_ui_policy_action_8ce0a61a478502104e3dfe02d16d43de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-26 05:51:02</sys_updated_on>
+        <table>x_1331380_pro_bono_opportunity</table>
+        <ui_policy display_value="Hide Immigration section when Matter Type is not Immigartion">dabd5e16478502104e3dfe02d16d4331</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</application>
+        <file_path/>
+        <instance_id>9682bbe9dbf2f51002d9172913961916</instance_id>
+        <instance_name>dev228298</instance_name>
+        <name>sys_ui_policy_action_8ce0a61a478502104e3dfe02d16d43de</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>date_of_last_update</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-22 08:59:52</sys_created_on><sys_id>8ce0a61a478502104e3dfe02d16d43de</sys_id><sys_mod_count>2</sys_mod_count><sys_name>date_of_last_update</sys_name><sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package><sys_policy/><sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope><sys_update_name>sys_ui_policy_action_8ce0a61a478502104e3dfe02d16d43de</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-26 05:51:02</sys_updated_on><table>x_1331380_pro_bono_opportunity</table><ui_policy display_value="Hide Immigration section when Matter Type is not Immigartion">dabd5e16478502104e3dfe02d16d4331</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>584234144</payload_hash>
+        <record_name>date_of_last_update</record_name>
+        <reverted_from/>
+        <source>c7514b8647c502104e3dfe02d16d4302</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-26 05:51:02</sys_created_on>
+        <sys_id>fb0c5a2347c102104e3dfe02d16d431a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e794fe2cf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-26 05:51:02</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>b30c5a2300c102109e4010760c81eb1a</update_guid>
+        <update_guid_history>b30c5a2300c102109e4010760c81eb1a:584234144,fa0c5eefaa8102100f78f4e43b0cfec5:62329795,b2e0ae1ad1850210f9ebd3612fd12b34:-305209</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-28 11:24:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>5f183a50c9bd4ee8bd5ee2a49a3f0840</sys_id>
+        <sys_metadata>8ce0a61a478502104e3dfe02d16d43de</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>date_of_last_update</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_scope_delete display_value="">791f3a0a28c94d589fc76c1a049ec689</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_8ce0a61a478502104e3dfe02d16d43de</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_8ce0a61a478502104e3dfe02d16d43de">fb0c5a2347c102104e3dfe02d16d431a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-28 11:24:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

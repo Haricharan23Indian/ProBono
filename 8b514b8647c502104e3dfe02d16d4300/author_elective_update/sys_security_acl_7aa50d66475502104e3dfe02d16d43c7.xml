@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1331380_pro_bono_referral_source.*</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 07:16:04</sys_created_on>
+        <sys_id>7aa50d66475502104e3dfe02d16d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1331380_pro_bono_referral_source.*</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_update_name>sys_security_acl_7aa50d66475502104e3dfe02d16d43c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 07:16:04</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</application>
+        <file_path/>
+        <instance_id>9682bbe9dbf2f51002d9172913961916</instance_id>
+        <instance_name>dev228298</instance_name>
+        <name>sys_security_acl_7aa50d66475502104e3dfe02d16d43c7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>true</advanced><condition/><description/><local_or_existing>Local</local_or_existing><name>x_1331380_pro_bono_referral_source.*</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-04 07:16:04</sys_created_on><sys_id>7aa50d66475502104e3dfe02d16d43c7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1331380_pro_bono_referral_source.*</sys_name><sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package><sys_policy/><sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope><sys_update_name>sys_security_acl_7aa50d66475502104e3dfe02d16d43c7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-04 07:16:04</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-1003399235</payload_hash>
+        <record_name>x_1331380_pro_bono_referral_source.*</record_name>
+        <reverted_from/>
+        <source>c7514b8647c502104e3dfe02d16d4302</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 07:16:04</sys_created_on>
+        <sys_id>45d5c5e6475502104e3dfe02d16d43e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea7f6f8ff0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 07:16:04</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>49d5c5e6b1550210910ca3a271282be3</update_guid>
+        <update_guid_history>49d5c5e6b1550210910ca3a271282be3:-1003399235</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 07:20:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>6a07b1e4b26641b4bc47b86b5999a181</sys_id>
+        <sys_metadata>7aa50d66475502104e3dfe02d16d43c7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1331380_pro_bono_referral_source.*</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_parent display_value="">ac9e9346478902104e3dfe02d16d43b5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_scope_delete display_value="">791f3a0a28c94d589fc76c1a049ec689</sys_scope_delete>
+        <sys_update_name>sys_security_acl_7aa50d66475502104e3dfe02d16d43c7</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_7aa50d66475502104e3dfe02d16d43c7">45d5c5e6475502104e3dfe02d16d43e4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 07:20:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

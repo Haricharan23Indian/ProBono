@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>bar_admissions</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-03 09:34:28</sys_created_on>
+        <sys_id>2eebd052471902104e3dfe02d16d43b1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>bar_admissions</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_update_name>sys_ui_policy_action_2eebd052471902104e3dfe02d16d43b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 09:34:50</sys_updated_on>
+        <table>x_1331380_pro_bono_time_keeper_register</table>
+        <ui_policy display_value="Make the Mentioned Fields Mandatory">9de9189e47d502104e3dfe02d16d438a</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</application>
+        <file_path/>
+        <instance_id>9682bbe9dbf2f51002d9172913961916</instance_id>
+        <instance_name>dev228298</instance_name>
+        <name>sys_ui_policy_action_2eebd052471902104e3dfe02d16d43b1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>bar_admissions</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-03 09:34:28</sys_created_on><sys_id>2eebd052471902104e3dfe02d16d43b1</sys_id><sys_mod_count>2</sys_mod_count><sys_name>bar_admissions</sys_name><sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package><sys_policy/><sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope><sys_update_name>sys_ui_policy_action_2eebd052471902104e3dfe02d16d43b1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-03 09:34:50</sys_updated_on><table>x_1331380_pro_bono_time_keeper_register</table><ui_policy display_value="Make the Mentioned Fields Mandatory">9de9189e47d502104e3dfe02d16d438a</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1156272355</payload_hash>
+        <record_name>bar_admissions</record_name>
+        <reverted_from/>
+        <source>f4a6509a47d502104e3dfe02d16d43a4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-03 09:34:50</sys_created_on>
+        <sys_id>c40c9cde47d502104e3dfe02d16d43de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea34faa270000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 09:34:50</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>8c0c9cde79d50210a00c1d8c56c6fedd</update_guid>
+        <update_guid_history>8c0c9cde79d50210a00c1d8c56c6fedd:-1156272355,59fb98decbd5021088b141f29cc39f84:301133131,66ebd052d61902105120e886f97ac9b3:-2066596163</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-08 07:29:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>456fb964ef964c0495dfae8b44df2a91</sys_id>
+        <sys_metadata>2eebd052471902104e3dfe02d16d43b1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bar_admissions</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_parent display_value="Make the Mentioned Fields Mandatory">9de9189e47d502104e3dfe02d16d438a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_scope_delete display_value="">791f3a0a28c94d589fc76c1a049ec689</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_2eebd052471902104e3dfe02d16d43b1</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_2eebd052471902104e3dfe02d16d43b1">c40c9cde47d502104e3dfe02d16d43de</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-08 07:29:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-03 12:27:58</sys_created_on>
+        <sys_id>df83411a47d902104e3dfe02d16d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1331380_pro_bono.probono_extended_admin</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_security_acl display_value="sn_customerservice_related_party">86834dd647d902104e3dfe02d16d43cd</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_df83411a47d902104e3dfe02d16d43db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 12:27:58</sys_updated_on>
+        <sys_user_role display_value="x_1331380_pro_bono.probono_extended_admin" name="x_1331380_pro_bono.probono_extended_admin">0f9cd6e147d502104e3dfe02d16d4332</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

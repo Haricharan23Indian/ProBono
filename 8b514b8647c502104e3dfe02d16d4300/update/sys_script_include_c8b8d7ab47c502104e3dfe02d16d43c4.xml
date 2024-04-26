@@ -10,27 +10,29 @@
         <script><![CDATA[var StaffingOutreach = Class.create();
 StaffingOutreach.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     details: function() {
-        var records = this.getParameter("sysparm_value");
+        var records = this.getParameter("sysparm_value");//getting the sleceted sysids
         var array = records.split(",");
-        var opportunity_id = gs.getProperty("x_1331380_pro_bono.testing_id");
+        var opportunity_id = this.getParameter("opportunity_id");
         for (var i = 0; i < array.length; i++) {
             var gt = new GlideRecord("x_1331380_pro_bono_time_keeper_register");
             gt.get(array[i]);
             var gr = new GlideRecord("sn_customerservice_related_party");
-            gr.addQuery("x_1331380_pro_bono_opportunity", opportunity_id);
+             gr.addQuery("x_1331380_pro_bono_opportunity", opportunity_id);
+			// gr.addQuery("case_record", opportunity_id);
             gr.addQuery("x_1331380_pro_bono_time_keeper", array[i]);
             gr.query();
-            if (gr.next()) {
-                return;
-            } else {
+            if (!gr.next()) {
                 gr.initialize();
-                gr.x_1331380_pro_bono_timekeeper_name = gt.time_keeper_name;
-                gr.x_1331380_pro_bono_timekeeper_email = gt.email;
-				gr.x_1331380_pro_bono_sub_parctice_group=gt.subpractice_group;
-				gr.x_1331380_pro_bono_opportunity_accepted=gt.accepted_opportunity;
-				gr.x_1331380_pro_bono_notes=gt.notes;
 				gr.x_1331380_pro_bono_opportunity=opportunity_id;
 				gr.x_1331380_pro_bono_time_keeper=array[i];
+				gr.x_1331380_pro_bono_timekeeper_name = gt.user.name;
+                gr.x_1331380_pro_bono_timekeeper_email = gt.user.email;
+				gr.x_1331380_pro_bono_employee_number=gt.user.employee_number;
+				gr._1331380_pro_bono_practice_group=gt.practice_group;
+				gr.x_1331380_pro_bono_sub_parctice_group=gt.subpractice_group;
+				// gr.x_1331380_pro_bono_time_keeper_type=gt.time_keeper_type;
+				// gr.x_1331380_pro_bono_opportunity_accepted=gt.accepted_opportunity;
+				gr.x_1331380_pro_bono_notes=gt.notes.getJournalEntry(-1);
                 gr.insert();
             }
         }
@@ -41,13 +43,13 @@ StaffingOutreach.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-26 10:16:22</sys_created_on>
         <sys_id>c8b8d7ab47c502104e3dfe02d16d43c4</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>StaffingOutreach</sys_name>
         <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
         <sys_update_name>sys_script_include_c8b8d7ab47c502104e3dfe02d16d43c4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-03 04:58:03</sys_updated_on>
+        <sys_updated_on>2024-04-15 08:46:20</sys_updated_on>
     </sys_script_include>
 </record_update>

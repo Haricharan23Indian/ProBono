@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name/>
-        <active>true</active>
+        <active>false</active>
         <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
@@ -31,9 +31,11 @@
         <onclick>onClick1()</onclick>
         <order>100</order>
         <script><![CDATA[function onClick1(){
-	var w=new GlideModal("x_1331380_pro_bono_StaffingRequirements");
+	var w=new GlideModal("x_1331380_pro_bono_staffing_requirements");
 	w.setTitle("Select Records");
 	w.setSize(750, 300);
+	w.render();
+	
 	var ga=new GlideAjax("Refresh");
 	ga.addParam("sysparm_name","setID");
 	ga.addParam("sysparm_value",g_form.getUniqueValue());
@@ -41,7 +43,7 @@
 	function callbackfunc(response){
 		var answer=response.responseXML.documentElement.getAttribute("answer");
 	}
-	w.render();
+	
 }]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -53,7 +55,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7fa1c405479502104e3dfe02d16d43e7</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Add</sys_name>
         <sys_overrides/>
         <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
@@ -61,7 +63,7 @@
         <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
         <sys_update_name>sys_ui_action_7fa1c405479502104e3dfe02d16d43e7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-02 12:17:27</sys_updated_on>
+        <sys_updated_on>2024-04-12 05:53:41</sys_updated_on>
         <table>x_1331380_pro_bono_m2m_x_1331380_pr_x_1331380_pr</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

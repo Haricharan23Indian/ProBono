@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1331380_pro_bono_m2m_x_1331380_pr_x_1331380_pr</name>
+        <operation display_value="create">create</operation>
+        <script><![CDATA[if(gs.hasRole("x_1331380_pro_bono.Probono_admin") || gs.hasRole("x_1331380_pro_bono.probono_extended_admin")){
+	answer=true;
+}
+else{
+	answer=false;
+}]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-02 12:25:36</sys_created_on>
+        <sys_id>fb49ffb947d902104e3dfe02d16d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1331380_pro_bono_m2m_x_1331380_pr_x_1331380_pr</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_update_name>sys_security_acl_fb49ffb947d902104e3dfe02d16d43c8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-02 12:25:36</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</application>
+        <file_path/>
+        <instance_id>9682bbe9dbf2f51002d9172913961916</instance_id>
+        <instance_name>dev228298</instance_name>
+        <name>sys_security_acl_fb49ffb947d902104e3dfe02d16d43c8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition/&gt;&lt;description/&gt;&lt;local_or_existing&gt;Local&lt;/local_or_existing&gt;&lt;name&gt;x_1331380_pro_bono_m2m_x_1331380_pr_x_1331380_pr&lt;/name&gt;&lt;operation display_value="create"&gt;create&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[if(gs.hasRole("x_1331380_pro_bono.Probono_admin") || gs.hasRole("x_1331380_pro_bono.probono_extended_admin")){
+	answer=true;
+}
+else{
+	answer=false;
+}]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-02 12:25:36&lt;/sys_created_on&gt;&lt;sys_id&gt;fb49ffb947d902104e3dfe02d16d43c8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_1331380_pro_bono_m2m_x_1331380_pr_x_1331380_pr&lt;/sys_name&gt;&lt;sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono"&gt;8b514b8647c502104e3dfe02d16d4300&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Pro Bono ServiceNow"&gt;8b514b8647c502104e3dfe02d16d4300&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_fb49ffb947d902104e3dfe02d16d43c8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-02 12:25:36&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1118283698</payload_hash>
+        <record_name>x_1331380_pro_bono_m2m_x_1331380_pr_x_1331380_pr</record_name>
+        <reverted_from/>
+        <source>e332d23d479102104e3dfe02d16d4355</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-02 12:25:37</sys_created_on>
+        <sys_id>b379bfb947d902104e3dfe02d16d4330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e9ec5a63e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-02 12:25:37</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>b779bfb918d9021030b553cfc5aa732f</update_guid>
+        <update_guid_history>b779bfb918d9021030b553cfc5aa732f:1118283698</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-12 06:03:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>3b074ccb153d4f7c9325d84fc5206e69</sys_id>
+        <sys_metadata>fb49ffb947d902104e3dfe02d16d43c8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1331380_pro_bono_m2m_x_1331380_pr_x_1331380_pr</sys_name>
+        <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+        <sys_parent display_value="">175e4ff8475102104e3dfe02d16d43f2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+        <sys_scope_delete display_value="">791f3a0a28c94d589fc76c1a049ec689</sys_scope_delete>
+        <sys_update_name>sys_security_acl_fb49ffb947d902104e3dfe02d16d43c8</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_fb49ffb947d902104e3dfe02d16d43c8">b379bfb947d902104e3dfe02d16d4330</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-12 06:03:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

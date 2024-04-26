@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="127203ce47c502104e3dfe02d16d4376" sys_domain="global" table="x_1331380_pro_bono_opportunity" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 16:48:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>227203ce47c502104e3dfe02d16d43b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1331380_pro_bono_opportunity" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="c2194a02478102104e3dfe02d16d434c">127203ce47c502104e3dfe02d16d4376</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="c2194a02478102104e3dfe02d16d434c">ea7203ce47c502104e3dfe02d16d43a4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 16:48:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 16:48:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e67203ce47c502104e3dfe02d16d43a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1331380_pro_bono_opportunity" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="c2194a02478102104e3dfe02d16d434c">127203ce47c502104e3dfe02d16d4376</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="c2194a02478102104e3dfe02d16d434c">e67203ce47c502104e3dfe02d16d439e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 16:48:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 16:48:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a7203ce47c502104e3dfe02d16d438b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1331380_pro_bono_opportunity" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="c2194a02478102104e3dfe02d16d434c">127203ce47c502104e3dfe02d16d4376</sys_ui_form>
+            <sys_ui_section caption="Resolution Information" display_value="Resolution Information" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="c2194a02478102104e3dfe02d16d434c">9a7203ce47c502104e3dfe02d16d4384</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 16:48:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 16:48:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e27203ce47c502104e3dfe02d16d439e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1331380_pro_bono_opportunity" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="c2194a02478102104e3dfe02d16d434c">127203ce47c502104e3dfe02d16d4376</sys_ui_form>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_1331380_pro_bono_opportunity" sys_domain="global" view="c2194a02478102104e3dfe02d16d434c">2e7203ce47c502104e3dfe02d16d438b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 16:48:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1331380_pro_bono_opportunity</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-21 16:48:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>127203ce47c502104e3dfe02d16d4376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1331380_pro_bono_opportunity</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Pro Bono ServiceNow" source="x_1331380_pro_bono">8b514b8647c502104e3dfe02d16d4300</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pro Bono ServiceNow">8b514b8647c502104e3dfe02d16d4300</sys_scope>
+            <sys_update_name>sys_ui_form_sections_127203ce47c502104e3dfe02d16d4376</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-21 16:48:00</sys_updated_on>
+            <sys_user/>
+            <view display_value="Case" name="case">c2194a02478102104e3dfe02d16d434c</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
